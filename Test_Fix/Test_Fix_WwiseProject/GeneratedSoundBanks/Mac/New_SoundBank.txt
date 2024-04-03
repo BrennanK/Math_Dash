@@ -1,0 +1,27 @@
+Event	ID	Name			Wwise Object Path	Notes
+	674522502	Land			\Default Work Unit\Land	
+	2385628198	Footsteps			\Default Work Unit\Footsteps\Footsteps	
+	3603273110	Coin			\Default Work Unit\Coin	
+	3833651337	Jump			\Default Work Unit\Jump	
+	3991942870	Music			\Default Work Unit\Music	
+
+State Group	ID	Name			Wwise Object Path	Notes
+	2012657067	New_State_Group			\Default Work Unit\New_State_Group	
+
+State	ID	Name	State Group			Notes
+	748895195	None	New_State_Group			
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	1547334168	Coinscore			\Default Work Unit\Coinscore	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	19545265	SFX_Land_Player	V:\MathDashWwiseIntergration\Fix-Unreal-Setup-main\Fix-Unreal-Setup-main\Test_Fix\Test_Fix_WwiseProject\.cache\Mac\SFX\SFX_Land_Player_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Land\SFX_Land_Player		85020
+	83304183	Footsteps_Player_3	V:\MathDashWwiseIntergration\Fix-Unreal-Setup-main\Fix-Unreal-Setup-main\Test_Fix\Test_Fix_WwiseProject\.cache\Mac\SFX\Footsteps_Player_3_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footsteps\Footsteps_Player_3		25020
+	84091583	SFX_Land_Player_2	V:\MathDashWwiseIntergration\Fix-Unreal-Setup-main\Fix-Unreal-Setup-main\Test_Fix\Test_Fix_WwiseProject\.cache\Mac\SFX\SFX_Land_Player_2_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Land\SFX_Land_Player_2		63788
+	212694996	Footsteps_Player_1	V:\MathDashWwiseIntergration\Fix-Unreal-Setup-main\Fix-Unreal-Setup-main\Test_Fix\Test_Fix_WwiseProject\.cache\Mac\SFX\Footsteps_Player_1_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footsteps\Footsteps_Player_1		24096
+	425969055	SFX_Jump_Player_2	V:\MathDashWwiseIntergration\Fix-Unreal-Setup-main\Fix-Unreal-Setup-main\Test_Fix\Test_Fix_WwiseProject\.cache\Mac\SFX\SFX_Jump_Player_2_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Jump\SFX_Jump_Player_2		36096
+	528462203	Coin	V:\MathDashWwiseIntergration\Fix-Unreal-Setup-main\Fix-Unreal-Setup-main\Test_Fix\Test_Fix_WwiseProject\.cache\Mac\SFX\SFX_Coin_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Coin		86096
+	672500131	SFX_Jump_Player	V:\MathDashWwiseIntergration\Fix-Unreal-Setup-main\Fix-Unreal-Setup-main\Test_Fix\Test_Fix_WwiseProject\.cache\Mac\SFX\SFX_Jump_Player_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Jump\SFX_Jump_Player		36096
+	683596594	Footsteps_Player_2	V:\MathDashWwiseIntergration\Fix-Unreal-Setup-main\Fix-Unreal-Setup-main\Test_Fix\Test_Fix_WwiseProject\.cache\Mac\SFX\Footsteps_Player_2_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footsteps\Footsteps_Player_2		26864
+	1007974328	Math Dash Theme Song Looped	V:\MathDashWwiseIntergration\Fix-Unreal-Setup-main\Fix-Unreal-Setup-main\Test_Fix\Test_Fix_WwiseProject\.cache\Mac\SFX\Math Dash Theme Song Looped_FBC78EF0.wem		\Interactive Music Hierarchy\Default Work Unit\Music\New Music Segment\Math Dash Theme Song Looped		21504096
+

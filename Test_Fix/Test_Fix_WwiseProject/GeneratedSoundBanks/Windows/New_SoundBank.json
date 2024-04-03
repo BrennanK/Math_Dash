@@ -1,0 +1,193 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "150",
+  "SoundBanks": [
+   {
+    "Id": "4072029455",
+    "Type": "User",
+    "GUID": "{27804BDD-D167-4CB1-BA06-0A66F63E3EB7}",
+    "Language": "SFX",
+    "Hash": "{97B612E6-C9B1-5FA3-B8B1-276D941E61F8}",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\New_SoundBank",
+    "ShortName": "New_SoundBank",
+    "Path": "New_SoundBank.bnk",
+    "Media": [
+     {
+      "Id": "19545265",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SFX_Land_Player.wav",
+      "CachePath": "SFX/SFX_Land_Player_818F3B66.wem"
+     },
+     {
+      "Id": "83304183",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Footsteps_Player_3.wav",
+      "CachePath": "SFX/Footsteps_Player_3_818F3B66.wem"
+     },
+     {
+      "Id": "84091583",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SFX_Land_Player_2.wav",
+      "CachePath": "SFX/SFX_Land_Player_2_818F3B66.wem"
+     },
+     {
+      "Id": "212694996",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Footsteps_Player_1.wav",
+      "CachePath": "SFX/Footsteps_Player_1_818F3B66.wem"
+     },
+     {
+      "Id": "425969055",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SFX_Jump_Player_2.wav",
+      "CachePath": "SFX/SFX_Jump_Player_2_818F3B66.wem"
+     },
+     {
+      "Id": "528462203",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SFX_Coin.wav",
+      "CachePath": "SFX/SFX_Coin_818F3B66.wem"
+     },
+     {
+      "Id": "672500131",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SFX_Jump_Player.wav",
+      "CachePath": "SFX/SFX_Jump_Player_818F3B66.wem"
+     },
+     {
+      "Id": "683596594",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Footsteps_Player_2.wav",
+      "CachePath": "SFX/Footsteps_Player_2_818F3B66.wem"
+     },
+     {
+      "Id": "1007974328",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Math Dash Theme Song Looped.wav",
+      "CachePath": "SFX/Math Dash Theme Song Looped_FBC78EF0.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "3603273110",
+      "Name": "Coin",
+      "ObjectPath": "\\Events\\Default Work Unit\\Coin",
+      "GUID": "{B78675BF-7401-451C-8015-8A2E0C5A1A50}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.3680488",
+      "DurationMax": "0.3680488",
+      "MediaRefs": [
+       {
+        "Id": "528462203"
+       }
+      ]
+     },
+     {
+      "Id": "2385628198",
+      "Name": "Footsteps",
+      "ObjectPath": "\\Events\\Default Work Unit\\Footsteps\\Footsteps",
+      "GUID": "{9A58C996-B12A-43CB-9E14-71ED7F64CB1B}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.11072094",
+      "DurationMax": "0.1308339",
+      "MediaRefs": [
+       {
+        "Id": "83304183"
+       },
+       {
+        "Id": "212694996"
+       },
+       {
+        "Id": "683596594"
+       }
+      ]
+     },
+     {
+      "Id": "3833651337",
+      "Name": "Jump",
+      "ObjectPath": "\\Events\\Default Work Unit\\Jump",
+      "GUID": "{9CCAF454-C804-4593-99EC-9A00A5AADF2E}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.17393608",
+      "DurationMax": "0.17393608",
+      "MediaRefs": [
+       {
+        "Id": "425969055"
+       },
+       {
+        "Id": "672500131"
+       }
+      ]
+     },
+     {
+      "Id": "674522502",
+      "Name": "Land",
+      "ObjectPath": "\\Events\\Default Work Unit\\Land",
+      "GUID": "{0EF9EEF2-4B5C-47BB-88C3-3135C128D2FD}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.27257866",
+      "DurationMax": "0.38505542",
+      "MediaRefs": [
+       {
+        "Id": "19545265"
+       },
+       {
+        "Id": "84091583"
+       }
+      ],
+      "ActionPostEvent": [
+       {
+        "Id": "2385628198",
+        "Name": "Footsteps",
+        "ObjectPath": "\\Events\\Default Work Unit\\Footsteps\\Footsteps",
+        "GUID": "{9A58C996-B12A-43CB-9E14-71ED7F64CB1B}"
+       }
+      ]
+     },
+     {
+      "Id": "3991942870",
+      "Name": "Music",
+      "ObjectPath": "\\Events\\Default Work Unit\\Music",
+      "GUID": "{D67FBEFD-F37E-4C07-BF3B-CB954CDFB16F}",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "1007974328"
+       }
+      ]
+     }
+    ],
+    "GameParameters": [
+     {
+      "Id": "1547334168",
+      "Name": "Coinscore",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\Coinscore",
+      "GUID": "{0D3357EA-23AF-4671-AF6C-2E6A3CFEA001}"
+     }
+    ]
+   }
+  ],
+  "FileHash": "{D89A0D6A-A6CB-2882-7F0E-A07D86C53CA9}"
+ }
+}

@@ -80,7 +80,7 @@
     "Type": "User",
     "GUID": "{27804BDD-D167-4CB1-BA06-0A66F63E3EB7}",
     "Language": "SFX",
-    "Hash": "{97B612E6-C9B1-5FA3-B8B1-276D941E61F8}",
+    "Hash": "{2E6A6107-63C0-019D-5212-BEFD1F985041}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\New_SoundBank",
     "ShortName": "New_SoundBank",
     "Path": "New_SoundBank.bnk",
@@ -150,6 +150,14 @@
       "CachePath": "SFX/Footsteps_Player_2_818F3B66.wem"
      },
      {
+      "Id": "876440346",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SFX_clickUI.wav",
+      "CachePath": "SFX/SFX_clickUI_818F3B66.wem"
+     },
+     {
       "Id": "1007974328",
       "Language": "SFX",
       "Streaming": "false",
@@ -159,6 +167,20 @@
      }
     ],
     "Events": [
+     {
+      "Id": "1584507803",
+      "Name": "click",
+      "ObjectPath": "\\Events\\Default Work Unit\\UI\\click",
+      "GUID": "{B590B5EF-3678-41DB-AC48-1DCAC5CF19CA}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.1923125",
+      "DurationMax": "0.1923125",
+      "MediaRefs": [
+       {
+        "Id": "876440346"
+       }
+      ]
+     },
      {
       "Id": "3603273110",
       "Name": "Coin",
@@ -258,6 +280,6 @@
     ]
    }
   ],
-  "FileHash": "{16AC7A31-88FC-8E6B-4BE7-496A4AFE6ECF}"
+  "FileHash": "{F46F5D94-05B8-AE05-2BAD-F922FC67B06C}"
  }
 }

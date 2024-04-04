@@ -33,7 +33,7 @@
 				</StateGroup>
 			</StateGroups>
 		</SoundBank>
-		<SoundBank Id="4072029455" Type="User" GUID="{27804BDD-D167-4CB1-BA06-0A66F63E3EB7}" Language="SFX" Hash="{97B612E6-C9B1-5FA3-B8B1-276D941E61F8}">
+		<SoundBank Id="4072029455" Type="User" GUID="{27804BDD-D167-4CB1-BA06-0A66F63E3EB7}" Language="SFX" Hash="{2E6A6107-63C0-019D-5212-BEFD1F985041}">
 			<ObjectPath>\SoundBanks\Default Work Unit\New_SoundBank</ObjectPath>
 			<ShortName>New_SoundBank</ShortName>
 			<Path>New_SoundBank.bnk</Path>
@@ -70,12 +70,21 @@
 					<ShortName>Footsteps_Player_2.wav</ShortName>
 					<CachePath>SFX/Footsteps_Player_2_818F3B66.wem</CachePath>
 				</File>
+				<File Id="876440346" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_clickUI.wav</ShortName>
+					<CachePath>SFX/SFX_clickUI_818F3B66.wem</CachePath>
+				</File>
 				<File Id="1007974328" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Math Dash Theme Song Looped.wav</ShortName>
 					<CachePath>SFX/Math Dash Theme Song Looped_FBC78EF0.wem</CachePath>
 				</File>
 			</Media>
 			<Events>
+				<Event Id="1584507803" Name="click" ObjectPath="\Events\Default Work Unit\UI\click" GUID="{B590B5EF-3678-41DB-AC48-1DCAC5CF19CA}" DurationType="OneShot" DurationMin="0.1923125" DurationMax="0.1923125">
+					<MediaRefs>
+						<MediaRef Id="876440346"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="3603273110" Name="Coin" ObjectPath="\Events\Default Work Unit\Coin" GUID="{B78675BF-7401-451C-8015-8A2E0C5A1A50}" DurationType="OneShot" DurationMin="0.3680488" DurationMax="0.3680488">
 					<MediaRefs>
 						<MediaRef Id="528462203"/>
@@ -114,5 +123,5 @@
 			</GameParameters>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{30444E9C-909F-769C-6F7F-F717E019FF7E}</FileHash>
+	<FileHash>{7565D6B5-0DD0-EDCF-42D8-9699F700EA9E}</FileHash>
 </SoundBanksInfo>

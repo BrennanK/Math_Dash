@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
+	<SoundBanks>
+		<SoundBank Id="1355168291" Type="User" GUID="{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}" Language="SFX" Hash="{A0E02E9D-6B9E-128C-75FE-46FC75053C47}">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+			<Plugins>
+				<AudioDevices>
+					<Plugin Id="2317455096" Name="No_Output" ObjectPath="\Audio Devices\Default Work Unit\No_Output" GUID="{307476C3-B194-4EB2-8695-D7E3401F08AD}" LibName="No Output" LibId="11862023"/>
+					<Plugin Id="3859886410" Name="System" ObjectPath="\Audio Devices\Default Work Unit\System" GUID="{67F46756-D671-43A9-A23F-241CA0B602EB}" LibName="System" LibId="11403271"/>
+				</AudioDevices>
+			</Plugins>
+			<Busses>
+				<Bus Id="3803692087" Name="Master Audio Bus" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus" GUID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"/>
+			</Busses>
+			<GameParameters>
+				<GameParameter Id="1547334168" Name="Coinscore" ObjectPath="\Game Parameters\Default Work Unit\Coinscore" GUID="{0D3357EA-23AF-4671-AF6C-2E6A3CFEA001}"/>
+			</GameParameters>
+			<StateGroups>
+				<StateGroup Id="2012657067" Name="New_State_Group" ObjectPath="\States\Default Work Unit\New_State_Group" GUID="{4F14F383-C153-4070-BFEE-93CBB3089992}">
+					<States>
+						<State Id="748895195" Name="None" ObjectPath="\States\Default Work Unit\New_State_Group\None" GUID="{15E7BF21-65AE-4E06-87B1-0ED13D05C69E}"/>
+					</States>
+				</StateGroup>
+			</StateGroups>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{C71B3AC1-40A0-69B1-3C6E-859CD5E8DF6F}</FileHash>
+</SoundBanksInfo>

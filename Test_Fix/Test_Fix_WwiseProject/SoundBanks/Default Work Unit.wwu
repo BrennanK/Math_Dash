@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{A4D28DB5-18D5-4431-A88D-C9D77FB9E8F8}" SchemaVersion="119">
+	<SoundBanks>
+		<WorkUnit Name="Default Work Unit" ID="{A4D28DB5-18D5-4431-A88D-C9D77FB9E8F8}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="New_SoundBank" ID="{27804BDD-D167-4CB1-BA06-0A66F63E3EB7}">
+					<ObjectInclusionList>
+						<ObjectRef Name="UI" ID="{75C0A2DD-5EC2-4277-8F1D-1156302DAF2D}" WorkUnitID="{FCA9F3B1-D16A-44AC-9BD3-9FB09C368CE9}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Default Work Unit" ID="{FCA9F3B1-D16A-44AC-9BD3-9FB09C368CE9}" WorkUnitID="{FCA9F3B1-D16A-44AC-9BD3-9FB09C368CE9}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Coin" ID="{B78675BF-7401-451C-8015-8A2E0C5A1A50}" WorkUnitID="{32D916BF-42BC-4C52-8C50-4B7F6B1E3B85}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Default Work Unit" ID="{40913DC8-883A-4765-8F59-899235B83E6D}" WorkUnitID="{40913DC8-883A-4765-8F59-899235B83E6D}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="UI" ID="{75A8A018-46A1-4A86-9F69-81C01B5863DC}" WorkUnitID="{32D916BF-42BC-4C52-8C50-4B7F6B1E3B85}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundBanks>
+</WwiseDocument>

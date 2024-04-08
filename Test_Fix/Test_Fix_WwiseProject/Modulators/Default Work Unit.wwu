@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{A9A4B42A-7C34-4877-8DDC-34893DB81436}" SchemaVersion="119">
+	<Modulators>
+		<WorkUnit Name="Default Work Unit" ID="{A9A4B42A-7C34-4877-8DDC-34893DB81436}" PersistMode="Standalone">
+			<ChildrenList>
+				<ModulatorEnvelope Name="Coin Collection" ID="{7206B2B9-0736-4C43-B48F-9C88224F0BC7}" ShortID="733293906">
+					<PropertyList>
+						<Property Name="EnvelopeAutoRelease" Type="bool" Value="True"/>
+					</PropertyList>
+				</ModulatorEnvelope>
+			</ChildrenList>
+		</WorkUnit>
+	</Modulators>
+</WwiseDocument>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{32D916BF-42BC-4C52-8C50-4B7F6B1E3B85}" SchemaVersion="119">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{32D916BF-42BC-4C52-8C50-4B7F6B1E3B85}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Music" ID="{D67FBEFD-F37E-4C07-BF3B-CB954CDFB16F}">
+					<ChildrenList>
+						<Action Name="" ID="{363CD5B7-9D46-4EA3-8C5E-FE7491EDD560}" ShortID="136311053">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Music" ID="{0FDDDC71-1823-47E6-B66A-3C17F33BF3A3}" WorkUnitID="{40913DC8-883A-4765-8F59-899235B83E6D}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Folder Name="Footsteps" ID="{D34B01E4-EE3E-4A00-9CC0-125FC9CDBC7C}" ShortID="45170769">
+					<ChildrenList>
+						<Event Name="Footsteps" ID="{9A58C996-B12A-43CB-9E14-71ED7F64CB1B}">
+							<ChildrenList>
+								<Action Name="" ID="{42793F84-50D2-41FB-83EB-441E5F3C88C2}" ShortID="881069184">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Footsteps" ID="{AADEF3A2-CC8A-4211-AE7B-B073FD9556EF}" WorkUnitID="{FCA9F3B1-D16A-44AC-9BD3-9FB09C368CE9}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Event Name="Jump" ID="{9CCAF454-C804-4593-99EC-9A00A5AADF2E}">
+					<ChildrenList>
+						<Action Name="" ID="{AD10981F-99B6-4B97-A53F-C3482B8D3840}" ShortID="40808798">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Jump" ID="{CF522082-9DD1-4CD1-98C9-76B33C801DFA}" WorkUnitID="{FCA9F3B1-D16A-44AC-9BD3-9FB09C368CE9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Land" ID="{0EF9EEF2-4B5C-47BB-88C3-3135C128D2FD}">
+					<ChildrenList>
+						<Action Name="" ID="{ABB47D85-52E9-470E-A4C1-F72121622011}" ShortID="877891689">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Land" ID="{89D2AF13-29C9-4682-94AE-07D16B6C94BF}" WorkUnitID="{FCA9F3B1-D16A-44AC-9BD3-9FB09C368CE9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{629DF9B0-9A19-4B99-8804-ECEC5F88ED56}" ShortID="208439187">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="41"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Footsteps" ID="{9A58C996-B12A-43CB-9E14-71ED7F64CB1B}" WorkUnitID="{32D916BF-42BC-4C52-8C50-4B7F6B1E3B85}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Coin" ID="{B78675BF-7401-451C-8015-8A2E0C5A1A50}">
+					<ChildrenList>
+						<Action Name="" ID="{75747741-CE05-47B4-8011-5F36129A46B5}" ShortID="1018185219">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Coin" ID="{E2FD1989-2AC7-4460-876E-2C79B35EAC91}" WorkUnitID="{FCA9F3B1-D16A-44AC-9BD3-9FB09C368CE9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Folder Name="UI" ID="{75A8A018-46A1-4A86-9F69-81C01B5863DC}" ShortID="823171765">
+					<ChildrenList>
+						<Event Name="click" ID="{B590B5EF-3678-41DB-AC48-1DCAC5CF19CA}">
+							<ChildrenList>
+								<Action Name="" ID="{2E886F52-E883-44D0-B34A-8D84CBA1C6EA}" ShortID="171981649">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Click " ID="{FFA528FC-4B39-408C-8949-C2E909AB3543}" WorkUnitID="{FCA9F3B1-D16A-44AC-9BD3-9FB09C368CE9}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

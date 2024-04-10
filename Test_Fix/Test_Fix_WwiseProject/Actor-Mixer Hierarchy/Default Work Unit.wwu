@@ -364,6 +364,11 @@
 									</MediaIDList>
 								</AudioFileSource>
 								<AudioFileSource Name="SFX_TopSpeed_Player" ID="{68979574-D7B7-429F-9D37-A983DDAEAA12}">
+									<PropertyList>
+										<Property Name="LoopBegin" Type="Real64" Value="0.585366677135678"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="0.512018309648793"/>
+									</PropertyList>
 									<Language>SFX</Language>
 									<AudioFile>SFX_TopSpeed_Player.wav</AudioFile>
 									<MediaIDList>
@@ -592,19 +597,16 @@
 					<ChildrenList>
 						<Sound Name="Coin" ID="{E2FD1989-2AC7-4460-876E-2C79B35EAC91}" ShortID="745216592">
 							<PropertyList>
-								<Property Name="Highpass" Type="int16">
-									<ValueList>
-										<Value>24</Value>
-									</ValueList>
-								</Property>
 								<Property Name="Pitch" Type="int32">
-									<ValueList>
-										<Value>340</Value>
-									</ValueList>
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{C91B8FEB-7E12-46E7-9BBA-B14E9C93B729}"/>
+										</ModifierInfo>
+									</ModifierList>
 								</Property>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-12</Value>
+										<Value>-5</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -617,11 +619,11 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<AudioFileSource Name="SFX_Coin" ID="{7A3FA5AC-6AF7-4E09-9ED4-E8699235E23C}">
+								<AudioFileSource Name="Coinsound#3" ID="{95DC64AD-7EF2-4481-88FF-A1DE9711D3F1}">
 									<Language>SFX</Language>
-									<AudioFile>SFX_Coin.wav</AudioFile>
+									<AudioFile>Coinsound#3.wav</AudioFile>
 									<MediaIDList>
-										<MediaID ID="528462203"/>
+										<MediaID ID="152799063"/>
 									</MediaIDList>
 								</AudioFileSource>
 							</ChildrenList>
@@ -675,7 +677,7 @@
 								</ObjectList>
 							</ObjectLists>
 							<ActiveSourceList>
-								<ActiveSource Name="SFX_Coin" ID="{7A3FA5AC-6AF7-4E09-9ED4-E8699235E23C}" Platform="Linked"/>
+								<ActiveSource Name="Coinsound#3" ID="{95DC64AD-7EF2-4481-88FF-A1DE9711D3F1}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
 						<RandomSequenceContainer Name="Glue" ID="{835CC12D-75D7-44FC-BD17-D96A43AB0027}" ShortID="123628893">
@@ -861,7 +863,7 @@
 								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-16</Value>
+										<Value>-10</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -869,6 +871,9 @@
 								<Reference Name="Attenuation">
 									<Custom>
 										<Attenuation Name="Attenuation (Custom)" ID="{430A15C3-EA4B-4DE9-BEA9-A36D9589F9C2}" ShortID="507681576">
+											<PropertyList>
+												<Property Name="RadiusMax" Type="Real64" Value="1000"/>
+											</PropertyList>
 											<CurveUsageInfoList>
 												<VolumeDryUsage>
 													<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
@@ -883,12 +888,12 @@
 																	<Flags>5</Flags>
 																</Point>
 																<Point>
-																	<XPos>33.13609</XPos>
-																	<YPos>-5.03013</YPos>
+																	<XPos>519.97603</XPos>
+																	<YPos>-4.04605</YPos>
 																	<Flags>0</Flags>
 																</Point>
 																<Point>
-																	<XPos>100</XPos>
+																	<XPos>1000</XPos>
 																	<YPos>-200</YPos>
 																	<Flags>37</Flags>
 																</Point>
@@ -988,18 +993,6 @@
 													</Reference>
 												</ReferenceList>
 											</EffectSlot>
-										</Local>
-									</Reference>
-								</ObjectList>
-								<ObjectList Name="RTPC">
-									<Reference>
-										<Local>
-											<RTPC Name="" ID="{C11838DE-370A-46AC-A991-7CB3ABDD0904}" ShortID="632393025">
-												<PropertyList>
-													<Property Name="PropertyName" Type="string" Value="EnableAttenuation"/>
-												</PropertyList>
-												<ReferenceList/>
-											</RTPC>
 										</Local>
 									</Reference>
 								</ObjectList>

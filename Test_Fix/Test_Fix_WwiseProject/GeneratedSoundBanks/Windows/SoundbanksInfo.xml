@@ -9,7 +9,7 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="1355168291" Type="User" GUID="{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}" Language="SFX" Hash="{0A74B448-724D-B2B4-C458-3E3696DB83E5}">
+		<SoundBank Id="1355168291" Type="User" GUID="{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}" Language="SFX" Hash="{E3424AF0-3ADB-7D0B-C4B2-D70A98FB33F5}">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
@@ -55,7 +55,7 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="4072029455" Type="User" GUID="{FD1C5043-4AD9-4FE0-BA51-C9D17F524BDB}" Language="SFX" Hash="{2935656B-212A-EB53-642D-50D44ADE809E}">
+		<SoundBank Id="4072029455" Type="User" GUID="{FD1C5043-4AD9-4FE0-BA51-C9D17F524BDB}" Language="SFX" Hash="{14B372DA-60D6-EC87-FAA8-E55F007F9929}">
 			<ObjectPath>\SoundBanks\Default Work Unit\MainSoundbank\New_SoundBank</ObjectPath>
 			<ShortName>New_SoundBank</ShortName>
 			<Path>New_SoundBank.bnk</Path>
@@ -76,13 +76,17 @@
 					<ShortName>SFX_Land_Player_2.wav</ShortName>
 					<CachePath>SFX/SFX_Land_Player_2_818F3B66.wem</CachePath>
 				</File>
+				<File Id="100081597" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_GLUE_#1.wav</ShortName>
+					<CachePath>SFX/SFX_GLUE_#1_818F3B66.wem</CachePath>
+				</File>
 				<File Id="101479068" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>SFX_Dash_R.wav</ShortName>
 					<CachePath>SFX/SFX_Dash_R_818F3B66.wem</CachePath>
 				</File>
-				<File Id="216557831" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>SFX_GLUE_1.wav</ShortName>
-					<CachePath>SFX/SFX_GLUE_1_818F3B66.wem</CachePath>
+				<File Id="152799063" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Coinsound#3.wav</ShortName>
+					<CachePath>SFX/Coinsound#3_61408594.wem</CachePath>
 				</File>
 				<File Id="229560421" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>SFX_Incorrect#2.wav</ShortName>
@@ -95,10 +99,6 @@
 				<File Id="425969055" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>SFX_Jump_Player_2.wav</ShortName>
 					<CachePath>SFX/SFX_Jump_Player_2_818F3B66.wem</CachePath>
-				</File>
-				<File Id="528462203" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>SFX_Coin.wav</ShortName>
-					<CachePath>SFX/SFX_Coin_818F3B66.wem</CachePath>
 				</File>
 				<File Id="586380507" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>SFX_TopSpeed_Player.wav</ShortName>
@@ -116,17 +116,9 @@
 					<ShortName>Footsteps_Player_2.wav</ShortName>
 					<CachePath>SFX/Footsteps_Player_2_818F3B66.wem</CachePath>
 				</File>
-				<File Id="692788340" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>SFX_GLUE_3.wav</ShortName>
-					<CachePath>SFX/SFX_GLUE_3_818F3B66.wem</CachePath>
-				</File>
 				<File Id="765689646" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>PaperCrumple_BW.9513.wav</ShortName>
 					<CachePath>SFX/PaperCrumple_BW.9513_9D40BF5C.wem</CachePath>
-				</File>
-				<File Id="778368293" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>SFX_GLUE_2.wav</ShortName>
-					<CachePath>SFX/SFX_GLUE_2_818F3B66.wem</CachePath>
 				</File>
 				<File Id="786459993" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>SFX_closemenu.wav</ShortName>
@@ -164,7 +156,11 @@
 			<Plugins>
 				<Custom>
 					<Plugin Id="284927216" Name="Time Stretch (Custom)" ObjectPath="\Actor-Mixer Hierarchy\Default Work Unit\UI\Slider\[Effect Slot [0]: (Time Stretch)]\Time Stretch (Custom)" GUID="{6F220998-476B-4EFE-AFEE-1D850DA230D4}" LibName="Wwise Time Stretch" LibId="8519683"/>
+					<Plugin Id="333818534" Name="RoomVerb (Custom)" ObjectPath="\Actor-Mixer Hierarchy\Default Work Unit\Items\Coin\[Effect Slot [2]: (RoomVerb)]\RoomVerb (Custom)" GUID="{52809BEE-47CE-42CF-B6C9-3F870D6B7B7E}" LibName="Wwise RoomVerb" LibId="7733251"/>
+					<Plugin Id="523853457" Name="Parametric EQ (Custom)" ObjectPath="\Actor-Mixer Hierarchy\Default Work Unit\Items\Coin\[Effect Slot [1]: (Parametric EQ)]\Parametric EQ (Custom)" GUID="{AC1C964C-C472-4F63-9069-FCBBBBBF1CDB}" LibName="Wwise Parametric EQ" LibId="6881283"/>
+					<Plugin Id="612341917" Name="Time Stretch (Custom)" ObjectPath="\Actor-Mixer Hierarchy\Default Work Unit\Items\Glue\[Effect Slot [0]: (Time Stretch)]\Time Stretch (Custom)" GUID="{1281EF22-E524-40C1-BB30-5B4A7882FF55}" LibName="Wwise Time Stretch" LibId="8519683"/>
 					<Plugin Id="650457570" Name="Time Stretch (Custom)" ObjectPath="\Actor-Mixer Hierarchy\Default Work Unit\Items\Poweruphum\[Effect Slot [0]: (Time Stretch)]\Time Stretch (Custom)" GUID="{D016EB20-4D8A-4332-85FF-91C4004B5698}" LibName="Wwise Time Stretch" LibId="8519683"/>
+					<Plugin Id="750286733" Name="Time Stretch (Custom)" ObjectPath="\Actor-Mixer Hierarchy\Default Work Unit\Items\Coin\[Effect Slot [0]: (Time Stretch)]\Time Stretch (Custom)" GUID="{C314CBE5-0968-477F-B248-1B237B287907}" LibName="Wwise Time Stretch" LibId="8519683"/>
 					<Plugin Id="853009810" Name="Time Stretch (Custom)" ObjectPath="\Interactive Music Hierarchy\Default Work Unit\Musicalcues\Incorrect\[Effect Slot [0]: (Time Stretch)]\Time Stretch (Custom)" GUID="{4ACF8F0F-2156-4108-8238-6577245C6CB4}" LibName="Wwise Time Stretch" LibId="8519683"/>
 				</Custom>
 			</Plugins>
@@ -179,10 +175,17 @@
 						<MediaRef Id="786459993"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="3603273110" Name="Coin" ObjectPath="\Events\Default Work Unit\Objects\Coin" GUID="{B78675BF-7401-451C-8015-8A2E0C5A1A50}" DurationType="OneShot" DurationMin="0.3680488" DurationMax="0.3680488">
+				<Event Id="3603273110" Name="Coin" ObjectPath="\Events\Default Work Unit\Objects\Coin" GUID="{B78675BF-7401-451C-8015-8A2E0C5A1A50}" DurationType="OneShot" DurationMin="0.47009504" DurationMax="0.47009504">
 					<MediaRefs>
-						<MediaRef Id="528462203"/>
+						<MediaRef Id="152799063"/>
 					</MediaRefs>
+					<PluginRefs>
+						<Custom>
+							<PluginRef Id="333818534"/>
+							<PluginRef Id="523853457"/>
+							<PluginRef Id="750286733"/>
+						</Custom>
+					</PluginRefs>
 				</Event>
 				<Event Id="4126251273" Name="Correct" ObjectPath="\Events\Default Work Unit\Musicalcues\Correct" GUID="{96089FDD-BD44-41FB-8DE9-7EB0E522E3F8}" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0">
 					<ActionSetState>
@@ -205,12 +208,15 @@
 						<MediaRef Id="683596594"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="1037196126" Name="Glue" ObjectPath="\Events\Default Work Unit\Objects\Glue" GUID="{9C22B59E-3F51-48AC-B95F-14330C52C99F}" DurationType="OneShot" DurationMin="0.134625" DurationMax="0.22114584">
+				<Event Id="1037196126" Name="Glue" ObjectPath="\Events\Default Work Unit\Objects\Glue" GUID="{9C22B59E-3F51-48AC-B95F-14330C52C99F}" DurationType="OneShot" DurationMin="0.15179166" DurationMax="0.15179166">
 					<MediaRefs>
-						<MediaRef Id="216557831"/>
-						<MediaRef Id="692788340"/>
-						<MediaRef Id="778368293"/>
+						<MediaRef Id="100081597"/>
 					</MediaRefs>
+					<PluginRefs>
+						<Custom>
+							<PluginRef Id="612341917"/>
+						</Custom>
+					</PluginRefs>
 				</Event>
 				<Event Id="1460973467" Name="HittingWalls" ObjectPath="\Events\Default Work Unit\Objects\HittingWalls" GUID="{0C9ED162-D735-4C61-BA90-7812F18D1031}" DurationType="OneShot" DurationMin="0.240375" DurationMax="0.240375">
 					<MediaRefs>
@@ -316,5 +322,5 @@
 			</StateGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{67A0C6BF-38BB-3DB4-9F69-91EBA7444204}</FileHash>
+	<FileHash>{B88B152B-5554-050D-9B14-E05916D82B51}</FileHash>
 </SoundBanksInfo>

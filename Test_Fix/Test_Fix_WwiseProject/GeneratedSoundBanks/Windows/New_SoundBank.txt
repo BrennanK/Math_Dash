@@ -1,29 +1,59 @@
 Event	ID	Name			Wwise Object Path	Notes
-	674522502	Land			\Default Work Unit\Land	
+	674522502	Land			\Default Work Unit\Player\Land	
+	697318834	Slider			\Default Work Unit\UI\Slider	
+	789179998	CloseMenu			\Default Work Unit\UI\CloseMenu	
+	853594596	LevelComplete			\Default Work Unit\Musicalcues\LevelComplete	
+	975663779	Poweruphum			\Default Work Unit\Objects\Poweruphum	
+	1037196126	Glue			\Default Work Unit\Objects\Glue	
+	1460973467	HittingWalls			\Default Work Unit\Objects\HittingWalls	
 	1584507803	click			\Default Work Unit\UI\click	
-	2385628198	Footsteps			\Default Work Unit\Footsteps\Footsteps	
-	3603273110	Coin			\Default Work Unit\Coin	
-	3833651337	Jump			\Default Work Unit\Jump	
+	1602244558	DashLeft			\Default Work Unit\Player\DashLeft	
+	2026487630	LevelFailed			\Default Work Unit\Musicalcues\LevelFailed	
+	2044204060	OpenMenu			\Default Work Unit\UI\OpenMenu	
+	2385628198	Footsteps			\Default Work Unit\Player\Footsteps\Footsteps	
+	3384309869	DashRight			\Default Work Unit\Player\DashRight	
+	3603273110	Coin			\Default Work Unit\Objects\Coin	
+	3691826278	Incorrect			\Default Work Unit\Musicalcues\Incorrect	
+	3833651337	Jump			\Default Work Unit\Player\Jump	
+	3950429679	Powerup			\Default Work Unit\Player\Powerup	
+	3980183022	Steponpaper			\Default Work Unit\Player\Steponpaper	
 	3991942870	Music			\Default Work Unit\Music	
-
-State Group	ID	Name			Wwise Object Path	Notes
-	2012657067	New_State_Group			\Default Work Unit\New_State_Group	
-
-State	ID	Name	State Group			Notes
-	748895195	None	New_State_Group			
+	4126251273	Correct			\Default Work Unit\Musicalcues\Correct	
+	4251942983	Hitwalls			\Default Work Unit\Player\Hitwalls	
 
 Game Parameter	ID	Name			Wwise Object Path	Notes
 	1547334168	Coinscore			\Default Work Unit\Coinscore	
+	4236854959	TeacherClosingin			\Default Work Unit\TeacherClosingin	
+
+Effect plug-ins	ID	Name	Type				Notes
+	284927216	Time Stretch (Custom)	Wwise Time Stretch			
+	650457570	Time Stretch (Custom)	Wwise Time Stretch			
+	853009810	Time Stretch (Custom)	Wwise Time Stretch			
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	19545265	SFX_Land_Player	V:\Math Dash\Fix-Unreal-Setup\Test_Fix\Test_Fix_WwiseProject\.cache\Windows\SFX\SFX_Land_Player_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Land\SFX_Land_Player		85020
-	83304183	Footsteps_Player_3	V:\Math Dash\Fix-Unreal-Setup\Test_Fix\Test_Fix_WwiseProject\.cache\Windows\SFX\Footsteps_Player_3_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footsteps\Footsteps_Player_3		25020
+	57708555	Poweruphum	V:\Math Dash\Fix-Unreal-Setup\Test_Fix\Test_Fix_WwiseProject\.cache\Windows\SFX\ElectricityVoltage_HV.221_FBC78EF0.wem		\Actor-Mixer Hierarchy\Default Work Unit\Items\Poweruphum		12205152
+	83304183	Footsteps_Player_3	V:\Math Dash\Fix-Unreal-Setup\Test_Fix\Test_Fix_WwiseProject\.cache\Windows\SFX\Footsteps_Player_3_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footsteps\Footsteps\Footsteps_Player_3		25020
 	84091583	SFX_Land_Player_2	V:\Math Dash\Fix-Unreal-Setup\Test_Fix\Test_Fix_WwiseProject\.cache\Windows\SFX\SFX_Land_Player_2_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Land\SFX_Land_Player_2		63788
-	212694996	Footsteps_Player_1	V:\Math Dash\Fix-Unreal-Setup\Test_Fix\Test_Fix_WwiseProject\.cache\Windows\SFX\Footsteps_Player_1_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footsteps\Footsteps_Player_1		24096
+	101479068	Dash_Right	V:\Math Dash\Fix-Unreal-Setup\Test_Fix\Test_Fix_WwiseProject\.cache\Windows\SFX\SFX_Dash_R_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Dash_Right		26864
+	216557831	SFX_GLUE_1	V:\Math Dash\Fix-Unreal-Setup\Test_Fix\Test_Fix_WwiseProject\.cache\Windows\SFX\SFX_GLUE_1_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Items\Glue\SFX_GLUE_1		42556
+	229560421	SFX_Incorrect#2	V:\Math Dash\Fix-Unreal-Setup\Test_Fix\Test_Fix_WwiseProject\.cache\Windows\SFX\SFX_Incorrect#2_FBC78EF0.wem		\Interactive Music Hierarchy\Default Work Unit\Musicalcues\Incorrect\SFX_Incorrect#2		60096
+	418068304	SFX_LevelComplete	V:\Math Dash\Fix-Unreal-Setup\Test_Fix\Test_Fix_WwiseProject\.cache\Windows\SFX\SFX_LevelComplete_FBC78EF0.wem		\Interactive Music Hierarchy\Default Work Unit\Musicalcues\Level Complete\SFX_LevelComplete		891788
 	425969055	SFX_Jump_Player_2	V:\Math Dash\Fix-Unreal-Setup\Test_Fix\Test_Fix_WwiseProject\.cache\Windows\SFX\SFX_Jump_Player_2_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Jump\SFX_Jump_Player_2		36096
-	528462203	Coin	V:\Math Dash\Fix-Unreal-Setup\Test_Fix\Test_Fix_WwiseProject\.cache\Windows\SFX\SFX_Coin_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Coin		86096
+	528462203	Coin	V:\Math Dash\Fix-Unreal-Setup\Test_Fix\Test_Fix_WwiseProject\.cache\Windows\SFX\SFX_Coin_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Items\Coin		86096
+	586380507	Powerup	V:\Math Dash\Fix-Unreal-Setup\Test_Fix\Test_Fix_WwiseProject\.cache\Windows\SFX\SFX_TopSpeed_Player_09ABC7BD.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Powerup		14812248
+	594399995	Open Menu	V:\Math Dash\Fix-Unreal-Setup\Test_Fix\Test_Fix_WwiseProject\.cache\Windows\SFX\SFX_openmenu_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\Open Menu		33328
 	672500131	SFX_Jump_Player	V:\Math Dash\Fix-Unreal-Setup\Test_Fix\Test_Fix_WwiseProject\.cache\Windows\SFX\SFX_Jump_Player_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Jump\SFX_Jump_Player		36096
-	683596594	Footsteps_Player_2	V:\Math Dash\Fix-Unreal-Setup\Test_Fix\Test_Fix_WwiseProject\.cache\Windows\SFX\Footsteps_Player_2_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footsteps\Footsteps_Player_2		26864
-	876440346	Click 	V:\Math Dash\Fix-Unreal-Setup\Test_Fix\Test_Fix_WwiseProject\.cache\Windows\SFX\SFX_clickUI_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\Click 		37020
+	683596594	Footsteps_Player_2	V:\Math Dash\Fix-Unreal-Setup\Test_Fix\Test_Fix_WwiseProject\.cache\Windows\SFX\Footsteps_Player_2_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footsteps\Footsteps\Footsteps_Player_2		26864
+	692788340	SFX_GLUE_3	V:\Math Dash\Fix-Unreal-Setup\Test_Fix\Test_Fix_WwiseProject\.cache\Windows\SFX\SFX_GLUE_3_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Items\Glue\SFX_GLUE_3		25944
+	765689646	paper	V:\Math Dash\Fix-Unreal-Setup\Test_Fix\Test_Fix_WwiseProject\.cache\Windows\SFX\PaperCrumple_BW.9513_9D40BF5C.wem		\Actor-Mixer Hierarchy\Default Work Unit\Items\paper		70952
+	778368293	SFX_GLUE_2	V:\Math Dash\Fix-Unreal-Setup\Test_Fix\Test_Fix_WwiseProject\.cache\Windows\SFX\SFX_GLUE_2_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Items\Glue\SFX_GLUE_2		32404
+	786459993	Close Menu	V:\Math Dash\Fix-Unreal-Setup\Test_Fix\Test_Fix_WwiseProject\.cache\Windows\SFX\SFX_closemenu_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\Close Menu		58248
+	847084007	Dash_Left	V:\Math Dash\Fix-Unreal-Setup\Test_Fix\Test_Fix_WwiseProject\.cache\Windows\SFX\SFX_Dash_L_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Dash_Left		67480
+	876440346	Click	V:\Math Dash\Fix-Unreal-Setup\Test_Fix\Test_Fix_WwiseProject\.cache\Windows\SFX\SFX_clickUI_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\Click		37020
+	883600567	Slider	V:\Math Dash\Fix-Unreal-Setup\Test_Fix\Test_Fix_WwiseProject\.cache\Windows\SFX\SFX_MovingSlider_UI_FBC78EF0.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\Slider		124956
 	1007974328	Math Dash Theme Song Looped	V:\Math Dash\Fix-Unreal-Setup\Test_Fix\Test_Fix_WwiseProject\.cache\Windows\SFX\Math Dash Theme Song Looped_FBC78EF0.wem		\Interactive Music Hierarchy\Default Work Unit\Music\New Music Segment\Math Dash Theme Song Looped		21504096
+	1025918850	FF_AF_foley_punch_grey	V:\Math Dash\Fix-Unreal-Setup\Test_Fix\Test_Fix_WwiseProject\.cache\Windows\SFX\FF_AF_foley_punch_grey_FBC78EF0.wem		\Interactive Music Hierarchy\Default Work Unit\Musicalcues\Incorrect\FF_AF_foley_punch_grey		79816
+	1040532783	SFX_BigHit_2	V:\Math Dash\Fix-Unreal-Setup\Test_Fix\Test_Fix_WwiseProject\.cache\Windows\SFX\SFX_BigHit_2_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Hittingwalls\SFX_BigHit_2		46248
+	1067366765	SFX_BigHit_1	V:\Math Dash\Fix-Unreal-Setup\Test_Fix\Test_Fix_WwiseProject\.cache\Windows\SFX\SFX_BigHit_1_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Hittingwalls\SFX_BigHit_1		46248
 

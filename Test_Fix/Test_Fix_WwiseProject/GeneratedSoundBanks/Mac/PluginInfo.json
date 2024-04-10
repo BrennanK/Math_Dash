@@ -4,6 +4,20 @@
   "BasePlatform": "Mac",
   "PluginLibs": [
    {
+    "LibName": "Wwise Parametric EQ",
+    "LibId": "6881283",
+    "Type": "Effect",
+    "DLL": "AkParametricEQ",
+    "StaticLib": "AkParametricEQFX"
+   },
+   {
+    "LibName": "Wwise RoomVerb",
+    "LibId": "7733251",
+    "Type": "Effect",
+    "DLL": "AkRoomVerb",
+    "StaticLib": "AkRoomVerbFX"
+   },
+   {
     "LibName": "Wwise Time Stretch",
     "LibId": "8519683",
     "Type": "Effect",
@@ -21,6 +35,6 @@
     "Type": "AudioDevice"
    }
   ],
-  "FileHash": "{2BEE8A7A-6C07-12A4-6921-B3B9DD03038D}"
+  "FileHash": "{9FA8E630-C22F-FBC3-F636-CC84177C5338}"
  }
 }

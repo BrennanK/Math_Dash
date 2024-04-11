@@ -82,3 +82,4 @@ DerivedDataCache/*
 !Plugins/WwiseNiagara/Binaries/Win64/*.dll
 !Plugins/WwiseNiagara/Binaries/Win64/*.lib
 !Plugins/Wwise/Binaries/Mac/*.dylib
+!Plugins/WwiseNiagara/Binaries/Mac/*.dylib

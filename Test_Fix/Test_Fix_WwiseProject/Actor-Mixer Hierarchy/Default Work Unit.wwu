@@ -365,9 +365,11 @@
 								</AudioFileSource>
 								<AudioFileSource Name="SFX_TopSpeed_Player" ID="{68979574-D7B7-429F-9D37-A983DDAEAA12}">
 									<PropertyList>
+										<Property Name="FadeOutDuration" Type="Real64" Value="5.66416453726481"/>
 										<Property Name="LoopBegin" Type="Real64" Value="0.585366677135678"/>
 										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
 										<Property Name="TrimBegin" Type="Real64" Value="0.512018309648793"/>
+										<Property Name="TrimEnd" Type="Real64" Value="6.1761828469136"/>
 									</PropertyList>
 									<Language>SFX</Language>
 									<AudioFile>SFX_TopSpeed_Player.wav</AudioFile>
@@ -406,7 +408,7 @@
 						</Property>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
-								<Value>-8</Value>
+								<Value>-13</Value>
 							</ValueList>
 							<ModifierList>
 								<ModifierInfo>
@@ -452,6 +454,13 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="SFX_Land_Player_2" ID="{0FDEA5B5-FE32-47DA-9769-EB63FB050878}" ShortID="698198306">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>1</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{27557D68-460E-42B5-997A-19C3AE20CB6D}"/>
@@ -941,7 +950,7 @@
 								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-10</Value>
+										<Value>-4</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>

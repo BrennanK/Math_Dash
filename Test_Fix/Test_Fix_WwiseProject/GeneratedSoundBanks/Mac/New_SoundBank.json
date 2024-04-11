@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{FD1C5043-4AD9-4FE0-BA51-C9D17F524BDB}",
     "Language": "SFX",
-    "Hash": "{14B372DA-60D6-EC87-FAA8-E55F007F9929}",
+    "Hash": "{16A5EFE0-8F75-2BE3-8061-29E7BC888898}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\MainSoundbank\\New_SoundBank",
     "ShortName": "New_SoundBank",
     "Path": "New_SoundBank.bnk",
@@ -101,7 +101,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "SFX_TopSpeed_Player.wav",
-      "CachePath": "SFX/SFX_TopSpeed_Player_09ABC7BD.wem"
+      "CachePath": "SFX/SFX_TopSpeed_Player_AB2EDAEF.wem"
      },
      {
       "Id": "594399995",
@@ -554,8 +554,8 @@
       "ObjectPath": "\\Events\\Default Work Unit\\Player\\Powerup",
       "GUID": "{F05183BD-A30F-4909-9310-606A1EED54FA}",
       "DurationType": "OneShot",
-      "DurationMin": "74.08953",
-      "DurationMax": "74.08953",
+      "DurationMin": "5.43971",
+      "DurationMax": "5.43971",
       "MediaRefs": [
        {
         "Id": "586380507"
@@ -684,6 +684,6 @@
     ]
    }
   ],
-  "FileHash": "{9916460E-34B8-C391-8918-F862C8AF414E}"
+  "FileHash": "{EC31896F-DCB4-5E07-EE23-C159ECDAA2D0}"
  }
 }

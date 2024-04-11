@@ -598,6 +598,9 @@
 						<Sound Name="Coin" ID="{E2FD1989-2AC7-4460-876E-2C79B35EAC91}" ShortID="745216592">
 							<PropertyList>
 								<Property Name="Pitch" Type="int32">
+									<ValueList>
+										<Value>100</Value>
+									</ValueList>
 									<ModifierList>
 										<ModifierInfo>
 											<Modifier Name="" ID="{C91B8FEB-7E12-46E7-9BBA-B14E9C93B729}"/>
@@ -619,7 +622,20 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<AudioFileSource Name="Coinsound#3" ID="{95DC64AD-7EF2-4481-88FF-A1DE9711D3F1}">
+								<AudioFileSource Name="coinsound#2" ID="{A34C6729-C526-4CA6-B6BB-880E84CB9C25}">
+									<Language>SFX</Language>
+									<AudioFile>coinsound#2.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="280087899"/>
+									</MediaIDList>
+								</AudioFileSource>
+								<AudioFileSource Name="Coinsound#3" ID="{4B5A82AE-2D90-45C4-9FE6-400CABE2C15E}">
+									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="0.00427509351620948"/>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.363382948877805"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimEnd" Type="Real64" Value="0.498048394638404"/>
+									</PropertyList>
 									<Language>SFX</Language>
 									<AudioFile>Coinsound#3.wav</AudioFile>
 									<MediaIDList>
@@ -628,6 +644,72 @@
 								</AudioFileSource>
 							</ChildrenList>
 							<ObjectLists>
+								<ObjectList Name="Effects">
+									<Reference>
+										<Local>
+											<EffectSlot Name="" ID="{1C162D82-0410-4B56-B62F-637FD9D33E57}" ShortID="440398598">
+												<ReferenceList>
+													<Reference Name="Effect">
+														<Custom>
+															<Effect Name="Time Stretch (Custom)" ID="{C314CBE5-0968-477F-B248-1B237B287907}" ShortID="750286733" PluginName="Wwise Time Stretch" CompanyID="0" PluginID="130" PluginType="3">
+																<PropertyList>
+																	<Property Name="PitchShift" Type="Real32" Value="300"/>
+																	<Property Name="TimeStretch" Type="Real32" Value="83"/>
+																	<Property Name="TimeStretchRandom" Type="Real32" Value="6"/>
+																	<Property Name="WindowSize" Type="int32" Value="2304"/>
+																</PropertyList>
+															</Effect>
+														</Custom>
+													</Reference>
+												</ReferenceList>
+											</EffectSlot>
+										</Local>
+									</Reference>
+									<Reference>
+										<Local>
+											<EffectSlot Name="" ID="{5F62A100-8E11-4F08-9003-10F29A7A2B44}" ShortID="319383734">
+												<ReferenceList>
+													<Reference Name="Effect">
+														<Custom>
+															<Effect Name="Parametric EQ (Custom)" ID="{AC1C964C-C472-4F63-9069-FCBBBBBF1CDB}" ShortID="523853457" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
+																<PropertyList>
+																	<Property Name="FrequencyBand1" Type="Real32" Value="516"/>
+																	<Property Name="GainBand1" Type="Real32" Value="-24"/>
+																	<Property Name="GainBand3" Type="Real32" Value="0.5"/>
+																</PropertyList>
+															</Effect>
+														</Custom>
+													</Reference>
+												</ReferenceList>
+											</EffectSlot>
+										</Local>
+									</Reference>
+									<Reference>
+										<Local>
+											<EffectSlot Name="" ID="{8285BB33-746E-4759-B9DF-361A1AF9C4C2}" ShortID="221193399">
+												<ReferenceList>
+													<Reference Name="Effect">
+														<Custom>
+															<Effect Name="RoomVerb (Custom)" ID="{52809BEE-47CE-42CF-B6C9-3F870D6B7B7E}" ShortID="333818534" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+																<PropertyList>
+																	<Property Name="DecayTime" Type="Real32" Value="1"/>
+																	<Property Name="Density" Type="Real32" Value="92"/>
+																	<Property Name="Diffusion" Type="Real32" Value="83"/>
+																	<Property Name="DryLevel" Type="Real32" Value="-0.3"/>
+																	<Property Name="ERLevel" Type="Real32" Value="-96"/>
+																	<Property Name="HFDamping" Type="Real32" Value="2.3"/>
+																	<Property Name="PreDelay" Type="Real32" Value="24"/>
+																	<Property Name="Quality" Type="int32" Value="12"/>
+																	<Property Name="ReverbLevel" Type="Real32" Value="-50"/>
+																</PropertyList>
+															</Effect>
+														</Custom>
+													</Reference>
+												</ReferenceList>
+											</EffectSlot>
+										</Local>
+									</Reference>
+								</ObjectList>
 								<ObjectList Name="RTPC">
 									<Reference>
 										<Local>
@@ -648,7 +730,7 @@
 																<PointList>
 																	<Point>
 																		<XPos>-90</XPos>
-																		<YPos>122</YPos>
+																		<YPos>-3094</YPos>
 																		<Flags>5</Flags>
 																	</Point>
 																	<Point>
@@ -677,10 +759,24 @@
 								</ObjectList>
 							</ObjectLists>
 							<ActiveSourceList>
-								<ActiveSource Name="Coinsound#3" ID="{95DC64AD-7EF2-4481-88FF-A1DE9711D3F1}" Platform="Linked"/>
+								<ActiveSource Name="Coinsound#3" ID="{4B5A82AE-2D90-45C4-9FE6-400CABE2C15E}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
 						<RandomSequenceContainer Name="Glue" ID="{835CC12D-75D7-44FC-BD17-D96A43AB0027}" ShortID="123628893">
+							<PropertyList>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{CC31D740-AC69-4030-A12E-CD9C0E38C3AE}"/>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-4</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{27557D68-460E-42B5-997A-19C3AE20CB6D}"/>
@@ -690,7 +786,16 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<Sound Name="SFX_GLUE_1" ID="{D7887F13-35FE-4901-AA52-9C903098F91D}" ShortID="959918775">
+								<Sound Name="SFX_GLUE_#1" ID="{C83830A4-3A6D-4F0A-A28B-EBD574C03FDC}" ShortID="308869131">
+									<PropertyList>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{09A37411-4223-4F75-A174-0DC05D8B86E2}"/>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{27557D68-460E-42B5-997A-19C3AE20CB6D}"/>
@@ -700,63 +805,36 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="SFX_GLUE_1" ID="{A4B3C48B-841E-4438-8A10-0B733D5DA244}">
+										<AudioFileSource Name="SFX_GLUE_#1" ID="{B4D405FB-8B96-423B-B8C1-0EC82D0EB549}">
 											<Language>SFX</Language>
-											<AudioFile>SFX_GLUE_1.wav</AudioFile>
+											<AudioFile>SFX_GLUE_#1.wav</AudioFile>
 											<MediaIDList>
-												<MediaID ID="216557831"/>
+												<MediaID ID="100081597"/>
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
-										<ActiveSource Name="SFX_GLUE_1" ID="{A4B3C48B-841E-4438-8A10-0B733D5DA244}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="SFX_GLUE_2" ID="{9F2D212D-5575-4D2A-9729-BF0C3FB8A488}" ShortID="911876049">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{27557D68-460E-42B5-997A-19C3AE20CB6D}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F84ADD72-3517-4A71-A38B-55B6DAE250FC}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="SFX_GLUE_2" ID="{68EB6B67-5900-4A36-B61A-C773883B0BF7}">
-											<Language>SFX</Language>
-											<AudioFile>SFX_GLUE_2.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="778368293"/>
-											</MediaIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="SFX_GLUE_2" ID="{68EB6B67-5900-4A36-B61A-C773883B0BF7}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="SFX_GLUE_3" ID="{FF71F22A-6728-49F4-84FF-FB64ABED0EE4}" ShortID="265033342">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{27557D68-460E-42B5-997A-19C3AE20CB6D}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F84ADD72-3517-4A71-A38B-55B6DAE250FC}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="SFX_GLUE_3" ID="{7CBA03B4-2A66-4001-B06C-5D1A05D627F9}">
-											<Language>SFX</Language>
-											<AudioFile>SFX_GLUE_3.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="692788340"/>
-											</MediaIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="SFX_GLUE_3" ID="{7CBA03B4-2A66-4001-B06C-5D1A05D627F9}" Platform="Linked"/>
+										<ActiveSource Name="SFX_GLUE_#1" ID="{B4D405FB-8B96-423B-B8C1-0EC82D0EB549}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 							</ChildrenList>
+							<ObjectLists>
+								<ObjectList Name="Effects">
+									<Reference>
+										<Local>
+											<EffectSlot Name="" ID="{2428294E-D0BD-4D46-A754-9FF938463C76}" ShortID="1013680775">
+												<ReferenceList>
+													<Reference Name="Effect">
+														<Custom>
+															<Effect Name="Time Stretch (Custom)" ID="{1281EF22-E524-40C1-BB30-5B4A7882FF55}" ShortID="612341917" PluginName="Wwise Time Stretch" CompanyID="0" PluginID="130" PluginType="3"/>
+														</Custom>
+													</Reference>
+												</ReferenceList>
+											</EffectSlot>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
 						</RandomSequenceContainer>
 						<Sound Name="paper" ID="{A8F1BAD0-C4BD-4952-8423-EC17DAB5BB45}" ShortID="634986529">
 							<PropertyList>

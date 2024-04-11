@@ -18,7 +18,7 @@
     "Type": "User",
     "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
     "Language": "SFX",
-    "Hash": "{0A74B448-724D-B2B4-C458-3E3696DB83E5}",
+    "Hash": "{E3424AF0-3ADB-7D0B-C4B2-D70A98FB33F5}",
     "ObjectPath": "Init",
     "ShortName": "Init",
     "Path": "Init.bnk",
@@ -153,7 +153,7 @@
     "Type": "User",
     "GUID": "{FD1C5043-4AD9-4FE0-BA51-C9D17F524BDB}",
     "Language": "SFX",
-    "Hash": "{2935656B-212A-EB53-642D-50D44ADE809E}",
+    "Hash": "{14B372DA-60D6-EC87-FAA8-E55F007F9929}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\MainSoundbank\\New_SoundBank",
     "ShortName": "New_SoundBank",
     "Path": "New_SoundBank.bnk",
@@ -191,6 +191,14 @@
       "CachePath": "SFX/SFX_Land_Player_2_818F3B66.wem"
      },
      {
+      "Id": "100081597",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SFX_GLUE_#1.wav",
+      "CachePath": "SFX/SFX_GLUE_#1_818F3B66.wem"
+     },
+     {
       "Id": "101479068",
       "Language": "SFX",
       "Streaming": "false",
@@ -199,12 +207,12 @@
       "CachePath": "SFX/SFX_Dash_R_818F3B66.wem"
      },
      {
-      "Id": "216557831",
+      "Id": "152799063",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
-      "ShortName": "SFX_GLUE_1.wav",
-      "CachePath": "SFX/SFX_GLUE_1_818F3B66.wem"
+      "ShortName": "Coinsound#3.wav",
+      "CachePath": "SFX/Coinsound#3_61408594.wem"
      },
      {
       "Id": "229560421",
@@ -229,14 +237,6 @@
       "Location": "Memory",
       "ShortName": "SFX_Jump_Player_2.wav",
       "CachePath": "SFX/SFX_Jump_Player_2_818F3B66.wem"
-     },
-     {
-      "Id": "528462203",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "SFX_Coin.wav",
-      "CachePath": "SFX/SFX_Coin_818F3B66.wem"
      },
      {
       "Id": "586380507",
@@ -271,28 +271,12 @@
       "CachePath": "SFX/Footsteps_Player_2_818F3B66.wem"
      },
      {
-      "Id": "692788340",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "SFX_GLUE_3.wav",
-      "CachePath": "SFX/SFX_GLUE_3_818F3B66.wem"
-     },
-     {
       "Id": "765689646",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "PaperCrumple_BW.9513.wav",
       "CachePath": "SFX/PaperCrumple_BW.9513_9D40BF5C.wem"
-     },
-     {
-      "Id": "778368293",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "SFX_GLUE_2.wav",
-      "CachePath": "SFX/SFX_GLUE_2_818F3B66.wem"
      },
      {
       "Id": "786459993",
@@ -370,10 +354,42 @@
        "LibId": "8519683"
       },
       {
+       "Id": "333818534",
+       "Name": "RoomVerb (Custom)",
+       "ObjectPath": "\\Actor-Mixer Hierarchy\\Default Work Unit\\Items\\Coin\\[Effect Slot [2]: (RoomVerb)]\\RoomVerb (Custom)",
+       "GUID": "{52809BEE-47CE-42CF-B6C9-3F870D6B7B7E}",
+       "LibName": "Wwise RoomVerb",
+       "LibId": "7733251"
+      },
+      {
+       "Id": "523853457",
+       "Name": "Parametric EQ (Custom)",
+       "ObjectPath": "\\Actor-Mixer Hierarchy\\Default Work Unit\\Items\\Coin\\[Effect Slot [1]: (Parametric EQ)]\\Parametric EQ (Custom)",
+       "GUID": "{AC1C964C-C472-4F63-9069-FCBBBBBF1CDB}",
+       "LibName": "Wwise Parametric EQ",
+       "LibId": "6881283"
+      },
+      {
+       "Id": "612341917",
+       "Name": "Time Stretch (Custom)",
+       "ObjectPath": "\\Actor-Mixer Hierarchy\\Default Work Unit\\Items\\Glue\\[Effect Slot [0]: (Time Stretch)]\\Time Stretch (Custom)",
+       "GUID": "{1281EF22-E524-40C1-BB30-5B4A7882FF55}",
+       "LibName": "Wwise Time Stretch",
+       "LibId": "8519683"
+      },
+      {
        "Id": "650457570",
        "Name": "Time Stretch (Custom)",
        "ObjectPath": "\\Actor-Mixer Hierarchy\\Default Work Unit\\Items\\Poweruphum\\[Effect Slot [0]: (Time Stretch)]\\Time Stretch (Custom)",
        "GUID": "{D016EB20-4D8A-4332-85FF-91C4004B5698}",
+       "LibName": "Wwise Time Stretch",
+       "LibId": "8519683"
+      },
+      {
+       "Id": "750286733",
+       "Name": "Time Stretch (Custom)",
+       "ObjectPath": "\\Actor-Mixer Hierarchy\\Default Work Unit\\Items\\Coin\\[Effect Slot [0]: (Time Stretch)]\\Time Stretch (Custom)",
+       "GUID": "{C314CBE5-0968-477F-B248-1B237B287907}",
        "LibName": "Wwise Time Stretch",
        "LibId": "8519683"
       },
@@ -422,13 +438,26 @@
       "ObjectPath": "\\Events\\Default Work Unit\\Objects\\Coin",
       "GUID": "{B78675BF-7401-451C-8015-8A2E0C5A1A50}",
       "DurationType": "OneShot",
-      "DurationMin": "0.3680488",
-      "DurationMax": "0.3680488",
+      "DurationMin": "0.47009504",
+      "DurationMax": "0.47009504",
       "MediaRefs": [
        {
-        "Id": "528462203"
+        "Id": "152799063"
        }
-      ]
+      ],
+      "PluginRefs": {
+       "Custom": [
+        {
+         "Id": "333818534"
+        },
+        {
+         "Id": "523853457"
+        },
+        {
+         "Id": "750286733"
+        }
+       ]
+      }
      },
      {
       "Id": "4126251273",
@@ -500,19 +529,20 @@
       "ObjectPath": "\\Events\\Default Work Unit\\Objects\\Glue",
       "GUID": "{9C22B59E-3F51-48AC-B95F-14330C52C99F}",
       "DurationType": "OneShot",
-      "DurationMin": "0.134625",
-      "DurationMax": "0.22114584",
+      "DurationMin": "0.15179166",
+      "DurationMax": "0.15179166",
       "MediaRefs": [
        {
-        "Id": "216557831"
-       },
-       {
-        "Id": "692788340"
-       },
-       {
-        "Id": "778368293"
+        "Id": "100081597"
        }
-      ]
+      ],
+      "PluginRefs": {
+       "Custom": [
+        {
+         "Id": "612341917"
+        }
+       ]
+      }
      },
      {
       "Id": "1460973467",
@@ -797,6 +827,6 @@
     ]
    }
   ],
-  "FileHash": "{9EC6167C-9199-2B5B-8959-EA8C6D34E2EA}"
+  "FileHash": "{8CAB5650-BD97-A307-73C3-84738D21AED1}"
  }
 }

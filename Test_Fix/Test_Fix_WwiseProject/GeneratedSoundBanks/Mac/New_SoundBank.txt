@@ -45,7 +45,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	229560421	SFX_Incorrect#2	V:\Math Dash\Fix-Unreal-Setup\Test_Fix\Test_Fix_WwiseProject\.cache\Mac\SFX\SFX_Incorrect#2_FBC78EF0.wem		\Interactive Music Hierarchy\Default Work Unit\Musicalcues\Incorrect\SFX_Incorrect#2		60096
 	418068304	SFX_LevelComplete	V:\Math Dash\Fix-Unreal-Setup\Test_Fix\Test_Fix_WwiseProject\.cache\Mac\SFX\SFX_LevelComplete_FBC78EF0.wem		\Interactive Music Hierarchy\Default Work Unit\Musicalcues\Level Complete\SFX_LevelComplete		891788
 	425969055	SFX_Jump_Player_2	V:\Math Dash\Fix-Unreal-Setup\Test_Fix\Test_Fix_WwiseProject\.cache\Mac\SFX\SFX_Jump_Player_2_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Jump\SFX_Jump_Player_2		36096
-	586380507	Powerup	V:\Math Dash\Fix-Unreal-Setup\Test_Fix\Test_Fix_WwiseProject\.cache\Mac\SFX\SFX_TopSpeed_Player_09ABC7BD.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Powerup		14812248
+	586380507	Powerup	V:\Math Dash\Fix-Unreal-Setup\Test_Fix\Test_Fix_WwiseProject\.cache\Mac\SFX\SFX_TopSpeed_Player_AB2EDAEF.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Powerup		1087616
 	594399995	Open Menu	V:\Math Dash\Fix-Unreal-Setup\Test_Fix\Test_Fix_WwiseProject\.cache\Mac\SFX\SFX_openmenu_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\Open Menu		33328
 	672500131	SFX_Jump_Player	V:\Math Dash\Fix-Unreal-Setup\Test_Fix\Test_Fix_WwiseProject\.cache\Mac\SFX\SFX_Jump_Player_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Jump\SFX_Jump_Player		36096
 	683596594	Footsteps_Player_2	V:\Math Dash\Fix-Unreal-Setup\Test_Fix\Test_Fix_WwiseProject\.cache\Mac\SFX\Footsteps_Player_2_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footsteps\Footsteps\Footsteps_Player_2		26864

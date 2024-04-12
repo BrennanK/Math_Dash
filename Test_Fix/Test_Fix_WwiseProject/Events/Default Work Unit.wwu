@@ -202,7 +202,14 @@
 								<Action Name="" ID="{CE9744E8-1FD0-42BF-AF63-EF5DE57634A7}" ShortID="295884184">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="Glue" ID="{835CC12D-75D7-44FC-BD17-D96A43AB0027}" WorkUnitID="{FCA9F3B1-D16A-44AC-9BD3-9FB09C368CE9}"/>
+											<ObjectRef Name="SFX_GLUE_#1" ID="{C83830A4-3A6D-4F0A-A28B-EBD574C03FDC}" WorkUnitID="{FCA9F3B1-D16A-44AC-9BD3-9FB09C368CE9}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{90F1C0FD-59A5-4563-9715-800B8AE16012}" ShortID="187404473">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX_GLUE_#1_01" ID="{45B62D01-1F9C-439B-8BD1-14D5272BC34A}" WorkUnitID="{FCA9F3B1-D16A-44AC-9BD3-9FB09C368CE9}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>

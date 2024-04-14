@@ -55,7 +55,7 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="4072029455" Type="User" GUID="{FD1C5043-4AD9-4FE0-BA51-C9D17F524BDB}" Language="SFX" Hash="{16A5EFE0-8F75-2BE3-8061-29E7BC888898}">
+		<SoundBank Id="4072029455" Type="User" GUID="{FD1C5043-4AD9-4FE0-BA51-C9D17F524BDB}" Language="SFX" Hash="{BB3760C9-62CF-0BF9-01AB-3D9AFE6E42FE}">
 			<ObjectPath>\SoundBanks\Default Work Unit\MainSoundbank\New_SoundBank</ObjectPath>
 			<ShortName>New_SoundBank</ShortName>
 			<Path>New_SoundBank.bnk</Path>
@@ -86,7 +86,7 @@
 				</File>
 				<File Id="152799063" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Coinsound#3.wav</ShortName>
-					<CachePath>SFX/Coinsound#3_61408594.wem</CachePath>
+					<CachePath>SFX/Coinsound#3_159F9C5E.wem</CachePath>
 				</File>
 				<File Id="229560421" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>SFX_Incorrect#2.wav</ShortName>
@@ -102,7 +102,7 @@
 				</File>
 				<File Id="586380507" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>SFX_TopSpeed_Player.wav</ShortName>
-					<CachePath>SFX/SFX_TopSpeed_Player_AB2EDAEF.wem</CachePath>
+					<CachePath>SFX/SFX_TopSpeed_Player_5CA13F48.wem</CachePath>
 				</File>
 				<File Id="594399995" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>SFX_openmenu.wav</ShortName>
@@ -118,7 +118,7 @@
 				</File>
 				<File Id="765689646" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>PaperCrumple_BW.9513.wav</ShortName>
-					<CachePath>SFX/PaperCrumple_BW.9513_9D40BF5C.wem</CachePath>
+					<CachePath>SFX/PaperCrumple_BW.9513_6A80451D.wem</CachePath>
 				</File>
 				<File Id="786459993" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>SFX_closemenu.wav</ShortName>
@@ -322,5 +322,5 @@
 			</StateGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{75B3AB7D-A2F8-8864-A0AA-F7AA0F0E568D}</FileHash>
+	<FileHash>{E66D2DBC-6C63-B08B-2F76-B980790B32C1}</FileHash>
 </SoundBanksInfo>

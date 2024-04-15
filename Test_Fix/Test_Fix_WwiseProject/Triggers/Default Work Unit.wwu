@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{7064472A-0D14-4C6A-9D7C-6E5CF652B32A}" SchemaVersion="119">
 	<Triggers>
-		<WorkUnit Name="Default Work Unit" ID="{7064472A-0D14-4C6A-9D7C-6E5CF652B32A}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{7064472A-0D14-4C6A-9D7C-6E5CF652B32A}" PersistMode="Standalone">
+			<ChildrenList>
+				<Trigger Name="AnswerCorrectly" ID="{BE09DA89-5F08-4A75-8DA9-C38E2B79D96F}"/>
+				<Trigger Name="AnswerIncorrectly" ID="{7F4B6925-7D75-47C2-B334-4ABDDE321837}"/>
+			</ChildrenList>
+		</WorkUnit>
 	</Triggers>
 </WwiseDocument>

@@ -626,6 +626,7 @@
 										<Property Name="OnOffBand2" Type="bool" Value="False"/>
 									</PropertyList>
 								</Effect>
+								<Effect Name="New_Parametric_EQ" ID="{5C06E273-F1EE-4B49-AD55-8AEED70D1DF9}" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3"/>
 							</ChildrenList>
 						</Folder>
 						<Folder Name="Band Pass Filters" ID="{06F31128-3218-4580-A1BE-00714DE3FC6C}" ShortID="606165038">

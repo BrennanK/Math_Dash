@@ -3,17 +3,23 @@
 	<SoundBanks>
 		<WorkUnit Name="Default Work Unit" ID="{A4D28DB5-18D5-4431-A88D-C9D77FB9E8F8}" PersistMode="Standalone">
 			<ChildrenList>
-				<SoundBank Name="New_SoundBank" ID="{27804BDD-D167-4CB1-BA06-0A66F63E3EB7}">
-					<ObjectInclusionList>
-						<ObjectRef Name="UI" ID="{75C0A2DD-5EC2-4277-8F1D-1156302DAF2D}" WorkUnitID="{FCA9F3B1-D16A-44AC-9BD3-9FB09C368CE9}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="Default Work Unit" ID="{FCA9F3B1-D16A-44AC-9BD3-9FB09C368CE9}" WorkUnitID="{FCA9F3B1-D16A-44AC-9BD3-9FB09C368CE9}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="Coin" ID="{B78675BF-7401-451C-8015-8A2E0C5A1A50}" WorkUnitID="{32D916BF-42BC-4C52-8C50-4B7F6B1E3B85}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="Default Work Unit" ID="{40913DC8-883A-4765-8F59-899235B83E6D}" WorkUnitID="{40913DC8-883A-4765-8F59-899235B83E6D}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="UI" ID="{75A8A018-46A1-4A86-9F69-81C01B5863DC}" WorkUnitID="{32D916BF-42BC-4C52-8C50-4B7F6B1E3B85}" Origin="Manual" Filter="7"/>
-					</ObjectInclusionList>
-					<ObjectExclusionList/>
-					<GameSyncExclusionList/>
-				</SoundBank>
+				<Folder Name="MainSoundbank" ID="{9DCBC475-D040-4294-8641-F3A516CEDDC4}" ShortID="689642997">
+					<ChildrenList>
+						<SoundBank Name="New_SoundBank" ID="{FD1C5043-4AD9-4FE0-BA51-C9D17F524BDB}">
+							<ObjectInclusionList>
+								<ObjectRef Name="Player" ID="{F8E21037-7A99-4483-AA21-D1324C66FC47}" WorkUnitID="{32D916BF-42BC-4C52-8C50-4B7F6B1E3B85}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="Default Work Unit" ID="{FCA9F3B1-D16A-44AC-9BD3-9FB09C368CE9}" WorkUnitID="{FCA9F3B1-D16A-44AC-9BD3-9FB09C368CE9}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="Objects" ID="{FBFE62D7-79AD-49FA-85FA-19D7425BCC6D}" WorkUnitID="{32D916BF-42BC-4C52-8C50-4B7F6B1E3B85}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="UI" ID="{75A8A018-46A1-4A86-9F69-81C01B5863DC}" WorkUnitID="{32D916BF-42BC-4C52-8C50-4B7F6B1E3B85}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="Music" ID="{D67FBEFD-F37E-4C07-BF3B-CB954CDFB16F}" WorkUnitID="{32D916BF-42BC-4C52-8C50-4B7F6B1E3B85}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="Default Work Unit" ID="{32D916BF-42BC-4C52-8C50-4B7F6B1E3B85}" WorkUnitID="{32D916BF-42BC-4C52-8C50-4B7F6B1E3B85}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="Musicalcues" ID="{68B17FBB-49BF-4C97-8576-FB47E9387589}" WorkUnitID="{32D916BF-42BC-4C52-8C50-4B7F6B1E3B85}" Origin="Manual" Filter="7"/>
+							</ObjectInclusionList>
+							<ObjectExclusionList/>
+							<GameSyncExclusionList/>
+						</SoundBank>
+					</ChildrenList>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</SoundBanks>

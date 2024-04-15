@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
     "Language": "SFX",
-    "Hash": "{A0E02E9D-6B9E-128C-75FE-46FC75053C47}",
+    "Hash": "{E3424AF0-3ADB-7D0B-C4B2-D70A98FB33F5}",
     "ObjectPath": "Init",
     "ShortName": "Init",
     "Path": "Init.bnk",
@@ -48,26 +48,99 @@
       "Name": "Coinscore",
       "ObjectPath": "\\Game Parameters\\Default Work Unit\\Coinscore",
       "GUID": "{0D3357EA-23AF-4671-AF6C-2E6A3CFEA001}"
+     },
+     {
+      "Id": "4236854959",
+      "Name": "TeacherClosingin",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\TeacherClosingin",
+      "GUID": "{57E0056D-021A-4A66-B320-5753FEEB0B67}"
      }
     ],
     "StateGroups": [
      {
-      "Id": "2012657067",
-      "Name": "New_State_Group",
-      "ObjectPath": "\\States\\Default Work Unit\\New_State_Group",
-      "GUID": "{4F14F383-C153-4070-BFEE-93CBB3089992}",
+      "Id": "2275179450",
+      "Name": "GameplayMusic",
+      "ObjectPath": "\\States\\Default Work Unit\\GameplayMusic",
+      "GUID": "{E65BDADD-6862-48D2-98CB-42708A196481}",
       "States": [
        {
         "Id": "748895195",
         "Name": "None",
-        "ObjectPath": "\\States\\Default Work Unit\\New_State_Group\\None",
-        "GUID": "{15E7BF21-65AE-4E06-87B1-0ED13D05C69E}"
+        "ObjectPath": "\\States\\Default Work Unit\\GameplayMusic\\None",
+        "GUID": "{2F50CB26-F2BF-45CB-B912-464D0B4706CF}"
        }
       ]
+     },
+     {
+      "Id": "4091656514",
+      "Name": "GameState",
+      "ObjectPath": "\\States\\Default Work Unit\\GameState",
+      "GUID": "{5966FA8E-DF45-4F97-9AA1-DE26F5C788D9}",
+      "States": [
+       {
+        "Id": "679636833",
+        "Name": "MenuMusic",
+        "ObjectPath": "\\States\\Default Work Unit\\GameState\\MenuMusic",
+        "GUID": "{BCC42B69-A28C-4034-8B8C-D473ED6487C7}"
+       },
+       {
+        "Id": "748895195",
+        "Name": "None",
+        "ObjectPath": "\\States\\Default Work Unit\\GameState\\None",
+        "GUID": "{5F8BEDA8-B3F0-4680-9A97-02C690191FA4}"
+       },
+       {
+        "Id": "1798799094",
+        "Name": "MusicFail",
+        "ObjectPath": "\\States\\Default Work Unit\\GameState\\MusicFail",
+        "GUID": "{C1150452-9A5F-4F92-84BE-DE3168C9B89A}"
+       },
+       {
+        "Id": "2275179450",
+        "Name": "GameplayMusic",
+        "ObjectPath": "\\States\\Default Work Unit\\GameState\\GameplayMusic",
+        "GUID": "{DF42D20A-D72F-4CFE-95A3-A074DB9C9F6B}"
+       },
+       {
+        "Id": "2822991943",
+        "Name": "MusicSuccess",
+        "ObjectPath": "\\States\\Default Work Unit\\GameState\\MusicSuccess",
+        "GUID": "{CD8BABFE-1020-4493-80FD-B48A0C297BC2}"
+       },
+       {
+        "Id": "4245432821",
+        "Name": "MusicSlowdown",
+        "ObjectPath": "\\States\\Default Work Unit\\GameState\\MusicSlowdown",
+        "GUID": "{9666FD9F-6D19-4946-9C0E-7B12423E94B3}"
+       }
+      ]
+     }
+    ],
+    "SwitchGroups": [
+     {
+      "Id": "841620460",
+      "Name": "Concrete",
+      "ObjectPath": "\\Switches\\Default Work Unit\\Footsteps\\Concrete",
+      "GUID": "{9D1C01FF-ABB0-4CC2-A952-1188950C640E}",
+      "Switches": []
+     },
+     {
+      "Id": "3126687001",
+      "Name": "Paper",
+      "ObjectPath": "\\Switches\\Default Work Unit\\Footsteps\\Paper",
+      "GUID": "{12147F32-5181-491C-9BA3-76628E4F74A7}",
+      "Switches": []
+     },
+     {
+      "Id": "4248645337",
+      "Name": "Grass",
+      "ObjectPath": "\\Switches\\Default Work Unit\\Footsteps\\Grass",
+      "GUID": "{675EB10B-7635-4213-9E01-C150C0610BB7}",
+      "Switches": []
      }
     ]
    }
   ],
-  "FileHash": "{4ED4A298-F090-C251-4EC5-AD5DB344FE99}"
+  "FileHash": "{EB3B27AE-3C25-1300-6D2E-4DF581F50419}"
  }
 }

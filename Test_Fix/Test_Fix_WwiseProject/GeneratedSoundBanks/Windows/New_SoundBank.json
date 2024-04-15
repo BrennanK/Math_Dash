@@ -8,10 +8,10 @@
    {
     "Id": "4072029455",
     "Type": "User",
-    "GUID": "{27804BDD-D167-4CB1-BA06-0A66F63E3EB7}",
+    "GUID": "{FD1C5043-4AD9-4FE0-BA51-C9D17F524BDB}",
     "Language": "SFX",
-    "Hash": "{2E6A6107-63C0-019D-5212-BEFD1F985041}",
-    "ObjectPath": "\\SoundBanks\\Default Work Unit\\New_SoundBank",
+    "Hash": "{BB3760C9-62CF-0BF9-01AB-3D9AFE6E42FE}",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\MainSoundbank\\New_SoundBank",
     "ShortName": "New_SoundBank",
     "Path": "New_SoundBank.bnk",
     "Media": [
@@ -22,6 +22,14 @@
       "Location": "Memory",
       "ShortName": "SFX_Land_Player.wav",
       "CachePath": "SFX/SFX_Land_Player_818F3B66.wem"
+     },
+     {
+      "Id": "57708555",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "ElectricityVoltage_HV.221.wav",
+      "CachePath": "SFX/ElectricityVoltage_HV.221_FBC78EF0.wem"
      },
      {
       "Id": "83304183",
@@ -40,12 +48,44 @@
       "CachePath": "SFX/SFX_Land_Player_2_818F3B66.wem"
      },
      {
-      "Id": "212694996",
+      "Id": "100081597",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
-      "ShortName": "Footsteps_Player_1.wav",
-      "CachePath": "SFX/Footsteps_Player_1_818F3B66.wem"
+      "ShortName": "SFX_GLUE_#1.wav",
+      "CachePath": "SFX/SFX_GLUE_#1_818F3B66.wem"
+     },
+     {
+      "Id": "101479068",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SFX_Dash_R.wav",
+      "CachePath": "SFX/SFX_Dash_R_818F3B66.wem"
+     },
+     {
+      "Id": "152799063",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Coinsound#3.wav",
+      "CachePath": "SFX/Coinsound#3_159F9C5E.wem"
+     },
+     {
+      "Id": "229560421",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SFX_Incorrect#2.wav",
+      "CachePath": "SFX/SFX_Incorrect#2_FBC78EF0.wem"
+     },
+     {
+      "Id": "418068304",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SFX_LevelComplete.wav",
+      "CachePath": "SFX/SFX_LevelComplete_FBC78EF0.wem"
      },
      {
       "Id": "425969055",
@@ -56,12 +96,20 @@
       "CachePath": "SFX/SFX_Jump_Player_2_818F3B66.wem"
      },
      {
-      "Id": "528462203",
+      "Id": "586380507",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
-      "ShortName": "SFX_Coin.wav",
-      "CachePath": "SFX/SFX_Coin_818F3B66.wem"
+      "ShortName": "SFX_TopSpeed_Player.wav",
+      "CachePath": "SFX/SFX_TopSpeed_Player_5CA13F48.wem"
+     },
+     {
+      "Id": "594399995",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SFX_openmenu.wav",
+      "CachePath": "SFX/SFX_openmenu_818F3B66.wem"
      },
      {
       "Id": "672500131",
@@ -80,6 +128,30 @@
       "CachePath": "SFX/Footsteps_Player_2_818F3B66.wem"
      },
      {
+      "Id": "765689646",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "PaperCrumple_BW.9513.wav",
+      "CachePath": "SFX/PaperCrumple_BW.9513_6A80451D.wem"
+     },
+     {
+      "Id": "786459993",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SFX_closemenu.wav",
+      "CachePath": "SFX/SFX_closemenu_818F3B66.wem"
+     },
+     {
+      "Id": "847084007",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SFX_Dash_L.wav",
+      "CachePath": "SFX/SFX_Dash_L_818F3B66.wem"
+     },
+     {
       "Id": "876440346",
       "Language": "SFX",
       "Streaming": "false",
@@ -88,14 +160,106 @@
       "CachePath": "SFX/SFX_clickUI_818F3B66.wem"
      },
      {
+      "Id": "883600567",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SFX_MovingSlider_UI.wav",
+      "CachePath": "SFX/SFX_MovingSlider_UI_FBC78EF0.wem"
+     },
+     {
       "Id": "1007974328",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Math Dash Theme Song Looped.wav",
       "CachePath": "SFX/Math Dash Theme Song Looped_FBC78EF0.wem"
+     },
+     {
+      "Id": "1025918850",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "FF_AF_foley_punch_grey.wav",
+      "CachePath": "SFX/FF_AF_foley_punch_grey_FBC78EF0.wem"
+     },
+     {
+      "Id": "1040532783",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SFX_BigHit_2.wav",
+      "CachePath": "SFX/SFX_BigHit_2_818F3B66.wem"
+     },
+     {
+      "Id": "1067366765",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SFX_BigHit_1.wav",
+      "CachePath": "SFX/SFX_BigHit_1_818F3B66.wem"
      }
     ],
+    "Plugins": {
+     "Custom": [
+      {
+       "Id": "284927216",
+       "Name": "Time Stretch (Custom)",
+       "ObjectPath": "\\Actor-Mixer Hierarchy\\Default Work Unit\\UI\\Slider\\[Effect Slot [0]: (Time Stretch)]\\Time Stretch (Custom)",
+       "GUID": "{6F220998-476B-4EFE-AFEE-1D850DA230D4}",
+       "LibName": "Wwise Time Stretch",
+       "LibId": "8519683"
+      },
+      {
+       "Id": "333818534",
+       "Name": "RoomVerb (Custom)",
+       "ObjectPath": "\\Actor-Mixer Hierarchy\\Default Work Unit\\Items\\Coin\\[Effect Slot [2]: (RoomVerb)]\\RoomVerb (Custom)",
+       "GUID": "{52809BEE-47CE-42CF-B6C9-3F870D6B7B7E}",
+       "LibName": "Wwise RoomVerb",
+       "LibId": "7733251"
+      },
+      {
+       "Id": "523853457",
+       "Name": "Parametric EQ (Custom)",
+       "ObjectPath": "\\Actor-Mixer Hierarchy\\Default Work Unit\\Items\\Coin\\[Effect Slot [1]: (Parametric EQ)]\\Parametric EQ (Custom)",
+       "GUID": "{AC1C964C-C472-4F63-9069-FCBBBBBF1CDB}",
+       "LibName": "Wwise Parametric EQ",
+       "LibId": "6881283"
+      },
+      {
+       "Id": "612341917",
+       "Name": "Time Stretch (Custom)",
+       "ObjectPath": "\\Actor-Mixer Hierarchy\\Default Work Unit\\Items\\Glue\\[Effect Slot [0]: (Time Stretch)]\\Time Stretch (Custom)",
+       "GUID": "{1281EF22-E524-40C1-BB30-5B4A7882FF55}",
+       "LibName": "Wwise Time Stretch",
+       "LibId": "8519683"
+      },
+      {
+       "Id": "650457570",
+       "Name": "Time Stretch (Custom)",
+       "ObjectPath": "\\Actor-Mixer Hierarchy\\Default Work Unit\\Items\\Poweruphum\\[Effect Slot [0]: (Time Stretch)]\\Time Stretch (Custom)",
+       "GUID": "{D016EB20-4D8A-4332-85FF-91C4004B5698}",
+       "LibName": "Wwise Time Stretch",
+       "LibId": "8519683"
+      },
+      {
+       "Id": "750286733",
+       "Name": "Time Stretch (Custom)",
+       "ObjectPath": "\\Actor-Mixer Hierarchy\\Default Work Unit\\Items\\Coin\\[Effect Slot [0]: (Time Stretch)]\\Time Stretch (Custom)",
+       "GUID": "{C314CBE5-0968-477F-B248-1B237B287907}",
+       "LibName": "Wwise Time Stretch",
+       "LibId": "8519683"
+      },
+      {
+       "Id": "853009810",
+       "Name": "Time Stretch (Custom)",
+       "ObjectPath": "\\Interactive Music Hierarchy\\Default Work Unit\\Musicalcues\\Incorrect\\[Effect Slot [0]: (Time Stretch)]\\Time Stretch (Custom)",
+       "GUID": "{4ACF8F0F-2156-4108-8238-6577245C6CB4}",
+       "LibName": "Wwise Time Stretch",
+       "LibId": "8519683"
+      }
+     ]
+    },
     "Events": [
      {
       "Id": "1584507803",
@@ -112,33 +276,104 @@
       ]
      },
      {
-      "Id": "3603273110",
-      "Name": "Coin",
-      "ObjectPath": "\\Events\\Default Work Unit\\Coin",
-      "GUID": "{B78675BF-7401-451C-8015-8A2E0C5A1A50}",
+      "Id": "789179998",
+      "Name": "CloseMenu",
+      "ObjectPath": "\\Events\\Default Work Unit\\UI\\CloseMenu",
+      "GUID": "{D4F501A7-C44D-4A11-B951-5B4A58CF2396}",
       "DurationType": "OneShot",
-      "DurationMin": "0.3680488",
-      "DurationMax": "0.3680488",
+      "DurationMin": "0.302875",
+      "DurationMax": "0.302875",
       "MediaRefs": [
        {
-        "Id": "528462203"
+        "Id": "786459993"
+       }
+      ]
+     },
+     {
+      "Id": "3603273110",
+      "Name": "Coin",
+      "ObjectPath": "\\Events\\Default Work Unit\\Objects\\Coin",
+      "GUID": "{B78675BF-7401-451C-8015-8A2E0C5A1A50}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.47009504",
+      "DurationMax": "0.47009504",
+      "MediaRefs": [
+       {
+        "Id": "152799063"
+       }
+      ],
+      "PluginRefs": {
+       "Custom": [
+        {
+         "Id": "333818534"
+        },
+        {
+         "Id": "523853457"
+        },
+        {
+         "Id": "750286733"
+        }
+       ]
+      }
+     },
+     {
+      "Id": "4126251273",
+      "Name": "Correct",
+      "ObjectPath": "\\Events\\Default Work Unit\\Musicalcues\\Correct",
+      "GUID": "{96089FDD-BD44-41FB-8DE9-7EB0E522E3F8}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0",
+      "ActionSetState": [
+       {
+        "GroupId": "4091656514",
+        "Id": "2822991943",
+        "Name": "MusicSuccess",
+        "ObjectPath": "\\States\\Default Work Unit\\GameState\\MusicSuccess",
+        "GUID": "{CD8BABFE-1020-4493-80FD-B48A0C297BC2}"
+       }
+      ]
+     },
+     {
+      "Id": "1602244558",
+      "Name": "DashLeft",
+      "ObjectPath": "\\Events\\Default Work Unit\\Player\\DashLeft",
+      "GUID": "{493DADC4-6B2B-4A8B-8ADE-38DC36DA5520}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.35095835",
+      "DurationMax": "0.35095835",
+      "MediaRefs": [
+       {
+        "Id": "847084007"
+       }
+      ]
+     },
+     {
+      "Id": "3384309869",
+      "Name": "DashRight",
+      "ObjectPath": "\\Events\\Default Work Unit\\Player\\DashRight",
+      "GUID": "{A1369115-2315-4D98-B7E9-6A91C0141CE3}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.13941666",
+      "DurationMax": "0.13941666",
+      "MediaRefs": [
+       {
+        "Id": "101479068"
        }
       ]
      },
      {
       "Id": "2385628198",
       "Name": "Footsteps",
-      "ObjectPath": "\\Events\\Default Work Unit\\Footsteps\\Footsteps",
+      "ObjectPath": "\\Events\\Default Work Unit\\Player\\Footsteps\\Footsteps",
       "GUID": "{9A58C996-B12A-43CB-9E14-71ED7F64CB1B}",
       "DurationType": "OneShot",
-      "DurationMin": "0.11072094",
+      "DurationMin": "0.11498369",
       "DurationMax": "0.1308339",
       "MediaRefs": [
        {
         "Id": "83304183"
-       },
-       {
-        "Id": "212694996"
        },
        {
         "Id": "683596594"
@@ -146,9 +381,88 @@
       ]
      },
      {
+      "Id": "1037196126",
+      "Name": "Glue",
+      "ObjectPath": "\\Events\\Default Work Unit\\Objects\\Glue",
+      "GUID": "{9C22B59E-3F51-48AC-B95F-14330C52C99F}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.15179166",
+      "DurationMax": "0.15179166",
+      "MediaRefs": [
+       {
+        "Id": "100081597"
+       }
+      ],
+      "PluginRefs": {
+       "Custom": [
+        {
+         "Id": "612341917"
+        }
+       ]
+      }
+     },
+     {
+      "Id": "1460973467",
+      "Name": "HittingWalls",
+      "ObjectPath": "\\Events\\Default Work Unit\\Objects\\HittingWalls",
+      "GUID": "{0C9ED162-D735-4C61-BA90-7812F18D1031}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.240375",
+      "DurationMax": "0.240375",
+      "MediaRefs": [
+       {
+        "Id": "1040532783"
+       },
+       {
+        "Id": "1067366765"
+       }
+      ]
+     },
+     {
+      "Id": "4251942983",
+      "Name": "Hitwalls",
+      "ObjectPath": "\\Events\\Default Work Unit\\Player\\Hitwalls",
+      "GUID": "{3D6DB86A-E61D-4752-8D39-105D216ACE18}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.240375",
+      "DurationMax": "0.240375",
+      "MediaRefs": [
+       {
+        "Id": "1040532783"
+       },
+       {
+        "Id": "1067366765"
+       }
+      ]
+     },
+     {
+      "Id": "3691826278",
+      "Name": "Incorrect",
+      "ObjectPath": "\\Events\\Default Work Unit\\Musicalcues\\Incorrect",
+      "GUID": "{EEA05C00-01D2-4583-968B-0BCCAFEFD5C8}",
+      "DurationType": "OneShot",
+      "DurationMin": "1",
+      "DurationMax": "1",
+      "MediaRefs": [
+       {
+        "Id": "229560421"
+       },
+       {
+        "Id": "1025918850"
+       }
+      ],
+      "PluginRefs": {
+       "Custom": [
+        {
+         "Id": "853009810"
+        }
+       ]
+      }
+     },
+     {
       "Id": "3833651337",
       "Name": "Jump",
-      "ObjectPath": "\\Events\\Default Work Unit\\Jump",
+      "ObjectPath": "\\Events\\Default Work Unit\\Player\\Jump",
       "GUID": "{9CCAF454-C804-4593-99EC-9A00A5AADF2E}",
       "DurationType": "OneShot",
       "DurationMin": "0.17393608",
@@ -165,7 +479,7 @@
      {
       "Id": "674522502",
       "Name": "Land",
-      "ObjectPath": "\\Events\\Default Work Unit\\Land",
+      "ObjectPath": "\\Events\\Default Work Unit\\Player\\Land",
       "GUID": "{0EF9EEF2-4B5C-47BB-88C3-3135C128D2FD}",
       "DurationType": "OneShot",
       "DurationMin": "0.27257866",
@@ -175,17 +489,38 @@
         "Id": "19545265"
        },
        {
-        "Id": "84091583"
-       }
-      ],
-      "ActionPostEvent": [
+        "Id": "83304183"
+       },
        {
-        "Id": "2385628198",
-        "Name": "Footsteps",
-        "ObjectPath": "\\Events\\Default Work Unit\\Footsteps\\Footsteps",
-        "GUID": "{9A58C996-B12A-43CB-9E14-71ED7F64CB1B}"
+        "Id": "84091583"
+       },
+       {
+        "Id": "683596594"
        }
       ]
+     },
+     {
+      "Id": "853594596",
+      "Name": "LevelComplete",
+      "ObjectPath": "\\Events\\Default Work Unit\\Musicalcues\\LevelComplete",
+      "GUID": "{F9B2F1FC-DE8B-44EB-A129-5EB7D84E6C68}",
+      "DurationType": "OneShot",
+      "DurationMin": "4.644229",
+      "DurationMax": "4.644229",
+      "MediaRefs": [
+       {
+        "Id": "418068304"
+       }
+      ]
+     },
+     {
+      "Id": "2026487630",
+      "Name": "LevelFailed",
+      "ObjectPath": "\\Events\\Default Work Unit\\Musicalcues\\LevelFailed",
+      "GUID": "{C2233E9A-BB1E-4316-A29D-4979538CF560}",
+      "DurationType": "OneShot",
+      "DurationMin": "1",
+      "DurationMax": "1"
      },
      {
       "Id": "3991942870",
@@ -198,6 +533,93 @@
         "Id": "1007974328"
        }
       ]
+     },
+     {
+      "Id": "2044204060",
+      "Name": "OpenMenu",
+      "ObjectPath": "\\Events\\Default Work Unit\\UI\\OpenMenu",
+      "GUID": "{BD87D516-7266-4DEE-B6FB-2A8E55BE543D}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.17308334",
+      "DurationMax": "0.17308334",
+      "MediaRefs": [
+       {
+        "Id": "594399995"
+       }
+      ]
+     },
+     {
+      "Id": "3950429679",
+      "Name": "Powerup",
+      "ObjectPath": "\\Events\\Default Work Unit\\Player\\Powerup",
+      "GUID": "{F05183BD-A30F-4909-9310-606A1EED54FA}",
+      "DurationType": "OneShot",
+      "DurationMin": "5.43971",
+      "DurationMax": "5.43971",
+      "MediaRefs": [
+       {
+        "Id": "586380507"
+       }
+      ]
+     },
+     {
+      "Id": "975663779",
+      "Name": "Poweruphum",
+      "ObjectPath": "\\Events\\Default Work Unit\\Objects\\Poweruphum",
+      "GUID": "{64159DF4-B30C-4174-84EC-604D23A09BF8}",
+      "MaxAttenuation": "1000",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "57708555"
+       }
+      ],
+      "PluginRefs": {
+       "Custom": [
+        {
+         "Id": "650457570"
+        }
+       ]
+      }
+     },
+     {
+      "Id": "697318834",
+      "Name": "Slider",
+      "ObjectPath": "\\Events\\Default Work Unit\\UI\\Slider",
+      "GUID": "{06BACBC7-86E3-4DC5-8668-2F39B3D8B31B}",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "883600567"
+       }
+      ],
+      "PluginRefs": {
+       "Custom": [
+        {
+         "Id": "284927216"
+        }
+       ]
+      }
+     },
+     {
+      "Id": "3980183022",
+      "Name": "Steponpaper",
+      "ObjectPath": "\\Events\\Default Work Unit\\Player\\Steponpaper",
+      "GUID": "{41A7FE88-CD88-419E-9C2E-3CDA102A9299}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.3032409",
+      "DurationMax": "0.3032409",
+      "MediaRefs": [
+       {
+        "Id": "83304183"
+       },
+       {
+        "Id": "683596594"
+       },
+       {
+        "Id": "765689646"
+       }
+      ]
      }
     ],
     "GameParameters": [
@@ -206,10 +628,62 @@
       "Name": "Coinscore",
       "ObjectPath": "\\Game Parameters\\Default Work Unit\\Coinscore",
       "GUID": "{0D3357EA-23AF-4671-AF6C-2E6A3CFEA001}"
+     },
+     {
+      "Id": "4236854959",
+      "Name": "TeacherClosingin",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\TeacherClosingin",
+      "GUID": "{57E0056D-021A-4A66-B320-5753FEEB0B67}"
+     }
+    ],
+    "StateGroups": [
+     {
+      "Id": "4091656514",
+      "Name": "GameState",
+      "ObjectPath": "\\States\\Default Work Unit\\GameState",
+      "GUID": "{5966FA8E-DF45-4F97-9AA1-DE26F5C788D9}",
+      "States": [
+       {
+        "Id": "679636833",
+        "Name": "MenuMusic",
+        "ObjectPath": "\\States\\Default Work Unit\\GameState\\MenuMusic",
+        "GUID": "{BCC42B69-A28C-4034-8B8C-D473ED6487C7}"
+       },
+       {
+        "Id": "748895195",
+        "Name": "None",
+        "ObjectPath": "\\States\\Default Work Unit\\GameState\\None",
+        "GUID": "{5F8BEDA8-B3F0-4680-9A97-02C690191FA4}"
+       },
+       {
+        "Id": "1798799094",
+        "Name": "MusicFail",
+        "ObjectPath": "\\States\\Default Work Unit\\GameState\\MusicFail",
+        "GUID": "{C1150452-9A5F-4F92-84BE-DE3168C9B89A}"
+       },
+       {
+        "Id": "2275179450",
+        "Name": "GameplayMusic",
+        "ObjectPath": "\\States\\Default Work Unit\\GameState\\GameplayMusic",
+        "GUID": "{DF42D20A-D72F-4CFE-95A3-A074DB9C9F6B}"
+       },
+       {
+        "Id": "2822991943",
+        "Name": "MusicSuccess",
+        "ObjectPath": "\\States\\Default Work Unit\\GameState\\MusicSuccess",
+        "GUID": "{CD8BABFE-1020-4493-80FD-B48A0C297BC2}"
+       },
+       {
+        "Id": "4245432821",
+        "Name": "MusicSlowdown",
+        "ObjectPath": "\\States\\Default Work Unit\\GameState\\MusicSlowdown",
+        "GUID": "{9666FD9F-6D19-4946-9C0E-7B12423E94B3}"
+       }
+      ]
      }
     ]
    }
   ],
-  "FileHash": "{E575601C-7A2B-0280-E911-9E39C7F9C756}"
+  "FileHash": "{B0E8AF9D-2369-E2E7-6135-DC435EF09055}"
  }
 }

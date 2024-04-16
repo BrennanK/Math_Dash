@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{FD1C5043-4AD9-4FE0-BA51-C9D17F524BDB}",
     "Language": "SFX",
-    "Hash": "{16A5EFE0-8F75-2BE3-8061-29E7BC888898}",
+    "Hash": "{BB3760C9-62CF-0BF9-01AB-3D9AFE6E42FE}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\MainSoundbank\\New_SoundBank",
     "ShortName": "New_SoundBank",
     "Path": "New_SoundBank.bnk",
@@ -69,7 +69,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Coinsound#3.wav",
-      "CachePath": "SFX/Coinsound#3_61408594.wem"
+      "CachePath": "SFX/Coinsound#3_159F9C5E.wem"
      },
      {
       "Id": "229560421",
@@ -101,7 +101,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "SFX_TopSpeed_Player.wav",
-      "CachePath": "SFX/SFX_TopSpeed_Player_AB2EDAEF.wem"
+      "CachePath": "SFX/SFX_TopSpeed_Player_5CA13F48.wem"
      },
      {
       "Id": "594399995",
@@ -133,7 +133,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "PaperCrumple_BW.9513.wav",
-      "CachePath": "SFX/PaperCrumple_BW.9513_9D40BF5C.wem"
+      "CachePath": "SFX/PaperCrumple_BW.9513_6A80451D.wem"
      },
      {
       "Id": "786459993",
@@ -684,6 +684,6 @@
     ]
    }
   ],
-  "FileHash": "{EC31896F-DCB4-5E07-EE23-C159ECDAA2D0}"
+  "FileHash": "{73FA0A1A-80E4-2FD6-C2D5-0EE9924CD811}"
  }
 }

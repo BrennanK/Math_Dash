@@ -47,7 +47,6 @@ SourceArt/**/*.tga
 
 # Binary Files
 Binaries/*
-Plugins/*/Binaries/*
 
 # Builds
 Build/*
@@ -72,3 +71,15 @@ Plugins/*/Intermediate/*
 
 # Cache files for the editor to use
 DerivedDataCache/*
+
+# Don't ignore Wwise .dll and .lib files as these are needed for compiling
+!Plugins/Wwise/Binaries/Mac/*.dll
+!Plugins/Wwise/Binaries/Mac/*.lib
+!Plugins/Wwise/Binaries/Win64/*.dll
+!Plugins/Wwise/Binaries/Win64/*.lib
+!Plugins/WwiseNiagara/Binaries/Mac/*.dll
+!Plugins/WwiseNiagara/Binaries/Mac/*.lib
+!Plugins/WwiseNiagara/Binaries/Win64/*.dll
+!Plugins/WwiseNiagara/Binaries/Win64/*.lib
+!Plugins/Wwise/Binaries/Mac/*.dylib
+!Plugins/WwiseNiagara/Binaries/Mac/*.dylib

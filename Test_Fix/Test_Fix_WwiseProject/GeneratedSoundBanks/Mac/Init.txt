@@ -1,0 +1,20 @@
+State Group	ID	Name			Wwise Object Path	Notes
+	2275179450	GameplayMusic			\Default Work Unit\GameplayMusic	
+	4091656514	GameState			\Default Work Unit\GameState	
+
+State	ID	Name	State Group			Notes
+	748895195	None	GameplayMusic			
+	679636833	MenuMusic	GameState			
+	748895195	None	GameState			
+	1798799094	MusicFail	GameState			
+	2275179450	GameplayMusic	GameState			
+	2822991943	MusicSuccess	GameState			
+	4245432821	MusicSlowdown	GameState			
+
+Audio Bus	ID	Name			Wwise Object Path	Notes
+	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
+
+Audio Devices	ID	Name	Type				Notes
+	2317455096	No_Output	No Output			
+	3859886410	System	System			
+
